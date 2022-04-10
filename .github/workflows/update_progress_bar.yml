@@ -2,7 +2,7 @@ name: update_progress
 
 on:
   push:
-    branches: master
+    branches: main
 
 jobs:
   update:
