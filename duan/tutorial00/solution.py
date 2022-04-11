@@ -4,7 +4,7 @@ d = {}
 for sent in sents:
     for word in sent.strip().split(' '): 
         if word not in d.keys():
-            d[word]=0
-        d[word]+=1
+            d[word] = 0
+        d[word] += 1
 
 print(list(d.items())[:10])
