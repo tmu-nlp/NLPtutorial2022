@@ -28,7 +28,7 @@
 5. `git add スクリプト名`（ワイルドカード*も使用可）
 6. `git commit -m 'コメント'`（コメントは自由に）
 7. `git pull` (<span style="color:red;"><b>必ずやりましょう</b></font>)
-8. `git push origin master`
+8. `git push origin tutorial<nn>/<name>:tutorial<nn>/<name>`
 9. Pull Requests を作ってレビューしてもらう
 
 ### みんなの進捗
