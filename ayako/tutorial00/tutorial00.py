@@ -11,6 +11,7 @@ for line in my_file:
     for value in my_list:
         my_dict[value] += 1#defaultdictなら存在しないキーの時は0にしてくれる
 
-for key, value in sorted(my_dict.items()):##キー・値の各組をキー順に表示
+for key, value in sorted(my_dict.items()):##キー・値の各組をキー順に表示する
     print(key,value)
+
 
