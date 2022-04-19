@@ -1,0 +1,2 @@
+entropy = 10.526656
+coverage = 0.895226
