@@ -24,8 +24,7 @@ for line in model_file:
 test_file = open(sys.argv[1], "r").readlines()#階層遠いからコマンドラインで指定
 for line in test_file:
         test_list = line.strip().split()
-        W += 1 #文末記号1カウント
-
+        test_list.append("</s>") #文末記号
         for word in test_list: #1単語ずつ確率を計算
             W += 1 #単語1カウント
             P = float(lambda_unk) / V
