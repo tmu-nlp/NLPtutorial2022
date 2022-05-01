@@ -26,7 +26,7 @@ for line in model_file:
 
 print(f"lambda_1, lambda_2, entropy")
 
-#calc
+#calc-lambda-search
 for lambda_1 in lambda_list:
     for lambda_2 in lambda_list:
         for line in trg_file:
@@ -35,7 +35,8 @@ for lambda_1 in lambda_list:
             words.insert(0,"<s>")
             for i in range(1,len(words)):
                 unigram = words[i]
-                bigram = " ".join(words[i:i+2])
+                # bigram = " ".join(words[i:i+2])
+                bigram = " ".join(words[i-1:i+1])
                 P1 = lambda_1 * float(prob[unigram]) + (1-lambda_1) / V
                 P2 = lambda_2 * float(prob[bigram]) + (1-lambda_2) * P1
                 H += - math.log2(P2)
