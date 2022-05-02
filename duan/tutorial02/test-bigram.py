@@ -6,7 +6,7 @@ model_file = open('./nlptutorial/data/train-bigram.txt').readlines()
 test_file = open('./nlptutorial/test/02-train-input.txt').readlines()
 #初期化
 probs = defaultdict(lambda:0)
-lambda_1 = 0.95; lambda_2 = 0.95
+lambda_1 = 0.95; lambda_2 = 0.05
 V = 1000000; W = 0; H = 0
 
 #学習済みのモデルをロードする
