@@ -49,7 +49,6 @@ for i in range(npscore.shape[1]):
 today = datetime.date.today()
 #today = datetime.date(2017, 8, 2)
 date_list = list()
-date_list.append(datetime.date(2022, 4, 11))
 date_list.append(datetime.date(2022, 4, 18))
 date_list.append(datetime.date(2022, 4, 25))
 date_list.append(datetime.date(2022, 5, 2))

@@ -41,5 +41,3 @@ print("lambda1\tlambda2\tentropy")#出力のヘッダ
 
 p_dict = load_model(model_file)
 x = calc_entropy(test_file,p_dict,V,W,H)
-
-#できたら平滑化もしたい
