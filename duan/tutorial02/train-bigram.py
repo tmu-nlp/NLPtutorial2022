@@ -1,4 +1,3 @@
-import sys
 from collections import defaultdict
 
 #デフォルト値を設定する
