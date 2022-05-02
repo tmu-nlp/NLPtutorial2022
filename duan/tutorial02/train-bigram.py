@@ -23,4 +23,4 @@ for ngram, count in sorted(counts.items()):
     context.pop()
     context = ' '.join(context)
     probability = float(counts[ngram]/context_counts[context])
-    output.write (ngram + '  ' + '{:.6f}'.format(probability) + '\n')
+    output.write (ngram + '  ' + '{:.6f}'.format(probability) + '\n'
