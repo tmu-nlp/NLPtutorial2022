@@ -1,18 +1,18 @@
-import sys
 from collections import defaultdict
-def train_unigram(train,model):
-  counts = defaultdict(lambda:0)
-  total_count = 0
-  file = open(train)
-  for line in file:
+
+counts = defaultdict(lambda:0)
+total_count = 0
+training_file = open('./nlptutorial/data/wiki-en-train.word').readlines()
+
+for line in training_file:
     words = line.split()
     words.append('</s>')
     for word in words:
-      counts[word] += 1
-      total_count += 1 
-  model_file = open(model,'w')
-  for word, count in sorted(counts.items()):
-    prob = counts[word]/total_count
-    model_file.write(word + '\t' + str(prob) + '\n')
-if __name__ == '__main__':
-  train_unigram('./data/wiki-ja-train.word')
+        counts[word] += 1
+        total_count += 1 
+
+output = open('./nlptutorial/data/train-unigram.txt','w')
+
+for word, count in sorted(counts.items()):
+    probability = counts[word]/total_count
+    output.write (word + ' ' + '{:.6f}'.format(probability) + '\n')
