@@ -1,6 +1,12 @@
 import sys
 from collections import defaultdict
 
+def make_wordslist(data_file):
+    my_list = line.strip().split()#空白区切りで単語を配列に格納
+    my_list.append("</s>")
+    my_list.insert(0,"<s>") #文頭記号を先頭に追加
+    return words_list
+
 def make_unidict(data_file):
     uni_dict = defaultdict(lambda: 0)
     uni_freq = defaultdict(lambda: 0)
@@ -8,9 +14,7 @@ def make_unidict(data_file):
     line_cnt = 0
 
     for line in data_file:
-        my_list = line.strip().split()#空白区切りで単語を配列に格納
-        my_list.append("</s>")
-        my_list.insert(0,"<s>") #文頭記号を先頭に追加
+        my_list = make_wordslist(data_file)
         for value in my_list:
             my_dict1[value] += 1
         line_cnt += 1 #行数カウント
@@ -29,11 +33,8 @@ def make_bidict(data_file,uni_freq):
     bi_dict = defaultdict(lambda: 0) 
     my_dict2 = defaultdict(lambda: 0)
 
-    for line in data_file: #ここunidictと同じことしてるから嫌
-        words_list = line.strip().split()
-        words_list.append("</s>")
-        words_list.insert(0,"<s>")
-
+    for line in data_file:
+        words_list = make_wordslist(data_file)
         for i in range(1,len(words_list)):#i-1したときに文頭記号を含まないように
             pair = words_list[i-1] + " " + words_list[i] 
             my_dict2[pair] += 1 
