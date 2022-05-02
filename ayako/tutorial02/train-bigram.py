@@ -30,14 +30,14 @@ def make_unidict(data_file):
     return uni_dict, uni_freq
 
 def make_bidict(data_file,uni_freq):
-    bi_dict = defaultdict(lambda: 0) 
+    bi_dict = defaultdict(lambda: 0)
     my_dict2 = defaultdict(lambda: 0)
 
     for line in data_file:
         words_list = make_wordslist(data_file)
         for i in range(1,len(words_list)):#i-1したときに文頭記号を含まないように
-            pair = words_list[i-1] + " " + words_list[i] 
-            my_dict2[pair] += 1 
+            pair = words_list[i-1] + " " + words_list[i]
+            my_dict2[pair] += 1
     
     for key, value in sorted(my_dict2.items()):
         former = key.split()[0] #2語を配列にして1個目の単語を取り出す
@@ -51,3 +51,4 @@ bi_dict = make_bidict(data_file, uni_freq)
 
 for key, value in sorted(bi_dict.items() | uni_dict.items()):
     print(key,value)
+
