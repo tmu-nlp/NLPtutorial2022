@@ -21,10 +21,12 @@ for line in data_model:
     elif (len(line) == 3):
         model_dic[line[0] + " " + line[1]] = float(line[2])
 
-for lambda_1 in range(10, 100, 20):
+for lambda_1 in range(5, 100, 5):
     lambda_1 /= 100
-    for lambda_2 in range(5, 100, 10):
+    for lambda_2 in range(5, 100, 5):
         lambda_2 /= 100
+        h = 0
+        w = 0
         for line in data_test:
             line = line.strip().split()
             line.append('</s>')
