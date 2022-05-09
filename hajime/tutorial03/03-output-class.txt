@@ -1,0 +1,5 @@
+Sent Accuracy: 23.81% (20/84)
+Word Prec: 68.93% (1861/2700)
+Word Rec: 80.77% (1861/2304)
+F-meas: 74.38%
+Bound Accuracy: 83.25% (2683/3223)
