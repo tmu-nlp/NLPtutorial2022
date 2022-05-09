@@ -6,6 +6,12 @@ class Word_Segment:
         self.V = 1000000
         self.lambda1 = 0.950 
         self.p_dict = defaultdict(lambda : 0)
+        """
+        model_file = open(path + "data/big-ws-model.txt", "r").readlines()
+        for line in model_file:
+            my_list = line.strip().split()
+            self.p_dict[my_list[0]] = my_list[1]
+        """
 
     def train_unigram(self, my_file):
         for line in my_file:
@@ -64,9 +70,17 @@ if  __name__ == "__main__":
     x.word_segmentation(input_file)#単語分割
 
 """
+wiki-ja-train.wordの方
 Sent Accuracy: 23.81% (20/84)
 Word Prec: 68.93% (1861/2700)
 Word Rec: 80.77% (1861/2304)
 F-meas: 74.38%
 Bound Accuracy: 83.25% (2683/3223)
+
+big-ws-model.txtの方
+Sent Accuracy: 17.86% (15/84)
+Word Prec: 85.66% (1972/2302)
+Word Rec: 85.59% (1972/2304)
+F-meas: 85.63%
+Bound Accuracy: 91.13% (2937/3223)
 """
