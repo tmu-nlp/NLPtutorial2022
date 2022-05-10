@@ -1,9 +1,11 @@
-import sys  #i/o
-import math
-from collections import defaultdict #default-set
+# NLPtutorial 02にて作成
 
-model_file = open("model-file2.txt","r").readlines()
-trg_file = open(sys.argv[1],"r").readlines()
+import sys  # i/o
+import math
+from collections import defaultdict  # default-set
+
+model_file = open("model-file2.txt", "r").readlines()
+trg_file = open(sys.argv[1], "r").readlines()
 prob = defaultdict(lambda: 0)
 lambda_1 = 0.95
 lambda_2 = 0.95
@@ -17,7 +19,7 @@ while start_value < 1:
     lambda_list.append(start_value)
     start_value += 0.05
 
-#load model
+# load model
 for line in model_file:
     line_list = line.strip()
     pair = line_list.split(" ")
@@ -26,14 +28,16 @@ for line in model_file:
 
 print(f"lambda_1, lambda_2, entropy")
 
-#calc-lambda-search
+# calc-lambda-search
 for lambda_1 in lambda_list:
     for lambda_2 in lambda_list:
+        W = 0
+        H = 0
         for line in trg_file:
             words = line.strip().split(" ")
             words.append("</s>")
-            words.insert(0,"<s>")
-            for i in range(1,len(words)):
+            words.insert(0, "<s>")
+            for i in range(1, len(words)):
                 unigram = words[i]
                 # bigram = " ".join(words[i:i+2])
                 bigram = " ".join(words[i-1:i+1])
