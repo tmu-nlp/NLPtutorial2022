@@ -64,3 +64,19 @@ for line in test:
         next_edge = best_edge[next_edge]
     tags.reverse()
     print(' '.join(tags), file=output)
+    
+'''
+Accuracy: 90.82% (4144/4563)
+    
+Most common mistakes:
+NNS --> NN      45
+NN --> JJ       27
+NNP --> NN      22
+JJ --> DT       22
+VBN --> NN      12
+JJ --> NN       12
+NN --> IN       11
+NN --> DT       10
+NNP --> JJ      8
+RB --> IN       7
+'''
