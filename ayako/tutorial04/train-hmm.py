@@ -13,6 +13,7 @@ class train_HMM:
             wordtags = line.strip().split()#空白区切りで単語_タグのペアを配列に格納
             for wordtag in wordtags:
                 word_and_tag = wordtag.split("_")#アンスコ区切りで単語，タグをそれぞれ配列に格納
+                #word, tag = wordtag.split("_")でもいける
                 self.trasition[previous + " " + word_and_tag[1]] += 1#遷移を数え上げ
                 self.context[word_and_tag[1]] += 1#文脈を数え上げ
                 self.emit[word_and_tag[1] + " " + word_and_tag[0]] += 1#生成を数え上げ
