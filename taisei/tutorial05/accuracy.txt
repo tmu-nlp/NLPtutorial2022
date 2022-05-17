@@ -1,0 +1,7 @@
+iteration = 1   accuracy = 90.967056%
+iteration = 5   accuracy = 91.852639%
+iteration = 50   accuracy = 93.269571%
+
+iteration = 51   accuracy = 93.552958%
+iteration = 100   accuracy = 93.552958%
+iteration = 300   accuracy = 93.552958%
