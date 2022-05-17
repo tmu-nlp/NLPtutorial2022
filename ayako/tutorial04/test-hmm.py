@@ -36,7 +36,7 @@ class test_HMM:
                         P_T = self.transition[prev+" "+next_tag]
                         P_E = self.lambda1 * float(self.emission[next_tag+" "+words[i]]) + (1 - self.lambda1) / self.V
                         score = best_score[str(i)+" "+prev] - math.log2(P_T) - math.log2(P_E)
-                        if str(i+1)+" "+next_tag not in best_score or best_score[str(i+1)+" "+next_tag] > score:
+                        if str(i+1)+" "+next_tag not in best_score or best_score[str(i+1)+" "+next_tag] > score:#新しいやつの方が最小の時
                             best_score[str(i+1)+" "+next_tag] = score
                             best_edge[str(i+1)+" "+next_tag] = str(i)+ " "+prev
                         
