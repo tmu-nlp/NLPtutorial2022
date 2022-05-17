@@ -1,0 +1,10 @@
+訓練回数 正解率
+1 Accuracy = 90.967056%
+2 Accuracy = 91.781792%
+3 Accuracy = 92.773645%
+5 Accuracy = 91.852639%
+10 Accuracy = 93.446688%
+20 Accuracy = 93.234148%
+30 Accuracy = 92.950762%
+50 Accuracy = 93.269571%
+100 Accuracy = 93.552958%
