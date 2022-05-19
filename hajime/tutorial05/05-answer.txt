@@ -1,4 +1,6 @@
 訓練回数 正解率
+
+1-gram
 1 Accuracy = 90.967056%
 2 Accuracy = 91.781792%
 3 Accuracy = 92.773645%
@@ -8,3 +10,25 @@
 30 Accuracy = 92.950762%
 50 Accuracy = 93.269571%
 100 Accuracy = 93.552958%
+
+2-gram
+1 Accuracy = 90.223167%
+2 Accuracy = 91.888062%
+3 Accuracy = 92.100602%
+5 Accuracy = 92.667375%
+10 Accuracy = 92.667375%
+20 Accuracy = 92.773645%
+30 Accuracy = 92.773645%
+50 Accuracy = 92.773645%
+100 Accuracy = 92.773645%
+
+prep
+1 Accuracy = 90.719093%
+2 Accuracy = 83.882395%
+3 Accuracy = 92.171449%
+5 Accuracy = 92.879915%
+10 Accuracy = 93.198725%
+20 Accuracy = 93.021608%
+30 Accuracy = 93.304995%
+50 Accuracy = 93.304995%
+100 Accuracy = 93.304995%
