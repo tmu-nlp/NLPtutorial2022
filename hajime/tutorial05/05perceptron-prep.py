@@ -1,6 +1,8 @@
 #!/opt/homebrew/bin/python3
 from collections import defaultdict
 import sys
+from nltk.corpus import stopwords
+import nltk
 
 """
 第一引数:訓練か予測かを選択
@@ -10,6 +12,10 @@ test -> 予測
 第二引数:訓練回数
 int : n ->　n回繰り返したモデルを訓練/使用 
 """
+
+# https://nashidos.hatenablog.com/entry/2020/08/12/205119
+nltk.download('stopwords')
+stop_words = stopwords.words('english')
 
 
 class Perceptron():
@@ -27,7 +33,8 @@ class Perceptron():
         phi = defaultdict(lambda: 0)
         words = x.split(" ")
         for word in words:
-            phi[f"UNI:{word}"] += 1
+            if word not in stop_words:
+                phi[f"UNI:{word}"] += 1
         return phi
 
     def predict_all(self, model_file, input_file, output_file):
@@ -74,15 +81,15 @@ if __name__ == "__main__":
     if sys.argv[1] == "train":
         train_num = sys.argv[2]
         model_file = "data/titles-en-train.labeled"
-        output_file = "model-05-" + train_num + ".txt"
+        output_file = "model-05-prep-" + train_num + ".txt"
         train = Perceptron()
         weight = train.online_learning(model_file, int(train_num))
         train.weight_output(weight, output_file)
 
     elif sys.argv[1] == "test":
         train_num = sys.argv[2]
-        model_file = "model-05-" + train_num + ".txt"
+        model_file = "model-05-prep-" + train_num + ".txt"
         input_file = "data/titles-en-test.word"
-        output_file = "my_answer05-" + train_num
+        output_file = "my_answer05-prep-" + train_num
         test = Perceptron()
         test.predict_all(model_file, input_file, output_file)

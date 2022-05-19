@@ -26,8 +26,10 @@ class Perceptron():
     def create_features(self, x):
         phi = defaultdict(lambda: 0)
         words = x.split(" ")
-        for word in words:
-            phi[f"UNI:{word}"] += 1
+        for i in range(1, len(words)):
+            # _で繋げていることに注意
+            bi_gram = f"{words[i-1]}_{words[i]}"
+            phi[f"BI:{bi_gram}"] += 1
         return phi
 
     def predict_all(self, model_file, input_file, output_file):
@@ -74,15 +76,15 @@ if __name__ == "__main__":
     if sys.argv[1] == "train":
         train_num = sys.argv[2]
         model_file = "data/titles-en-train.labeled"
-        output_file = "model-05-" + train_num + ".txt"
+        output_file = "model-05-2gram-" + train_num + ".txt"
         train = Perceptron()
         weight = train.online_learning(model_file, int(train_num))
         train.weight_output(weight, output_file)
 
     elif sys.argv[1] == "test":
         train_num = sys.argv[2]
-        model_file = "model-05-" + train_num + ".txt"
+        model_file = "model-05-2gram-" + train_num + ".txt"
         input_file = "data/titles-en-test.word"
-        output_file = "my_answer05-" + train_num
+        output_file = "my_answer05-2gram-" + train_num
         test = Perceptron()
         test.predict_all(model_file, input_file, output_file)
