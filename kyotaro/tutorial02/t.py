@@ -7,7 +7,7 @@ V = 1000000
 h = 0
 w = 0
 test = open("wiki-en-test.word", "r").readlines()
-out_file = open("wiki-test-result.word", "w")
+out_file = open("te.txt", "w")
 
 
 with open(sys.argv[1], "r") as train_result:
@@ -24,8 +24,6 @@ for lmd1 in range(5, 100, 5):
     lmd1 *= 0.01
     for lmd2 in range(5, 100, 5):
         lmd2 *= 0.01
-        w = 0
-        h = 0
 
         for line in test:
             line = line.strip()

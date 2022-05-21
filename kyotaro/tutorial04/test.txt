@@ -1,0 +1,2 @@
+arg1=train-result.txt
+arg2=05-test-input.txt
