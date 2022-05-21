@@ -1,2 +1,0 @@
-a_X b_Y a_Z
-a_X c_X b_Y

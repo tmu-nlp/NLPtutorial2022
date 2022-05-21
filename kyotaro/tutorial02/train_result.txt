@@ -1,3 +1,0 @@
-['<s>', 'a', 'b', 'c', '</s>']
-['<s>', 'a', 'b', 'd', '</s>']
-defaultdict(<function bigram.<locals>.<lambda> at 0x107265160>, {})

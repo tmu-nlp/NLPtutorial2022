@@ -10,6 +10,8 @@ for line in my_file:
     words = line.split()
     for i in range(len(words)):
         my_dict[words[i]] += 1
+    
+
 
 for key, value in sorted(my_dict.items()):
     print(key + " " + str(value))
