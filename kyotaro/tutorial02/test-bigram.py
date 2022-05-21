@@ -26,6 +26,7 @@ for lmd1 in range(5, 100, 5):
         lmd2 *= 0.01
         w = 0
         h = 0
+
         for line in test:
             line = line.strip()
             words = line.split()
