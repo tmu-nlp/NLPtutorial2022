@@ -25,7 +25,6 @@ def update_weights(w, phi, y):
 if __name__ == "__main__":
     weight = defaultdict(lambda:0)
     text = open('./nlptutorial/data/titles-en-train.labeled')
-    
     for line in text:
         data = line.strip().split('\t')
         ftrs = data[1]
@@ -34,7 +33,6 @@ if __name__ == "__main__":
         y_predict = predict_one(weight, phi)
         if y_predict != label:
             update_weights(weight, phi, label)
-    
     model_out = open('./NLPtutorial2022/duan/tutorial05/model05.txt','w')
     for name, wgt in weight.items():
         model_out.write(name + '\t' + str(round(wgt,6)) + '\n')
