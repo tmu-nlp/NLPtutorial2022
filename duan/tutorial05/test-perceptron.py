@@ -25,31 +25,18 @@ def predict_all(model_file, input_file):
         name = line[0]
         weight = line[1]
         w[name] = int(weight)
-    
     res = []
     for line in input_file:
         line = line.strip()
         phi = create_features(line)
         y_predict = predict_one(w, phi)
         res.append(str(y_predict) + '\t' + line + '\n')
-
     return res
 
-if __name__ == "__main__":
-    input = open('./nlptutorial/data/titles-en-test.word')
+if __name__ == '__main__':
+    input = open('./nlptutorial/data/titles-en-train.labeled')
     model = open('./NLPtutorial2022/duan/tutorial05/model05.txt')
-
-    with open('./NLPtutorial2022/duan/tutorial05/answer.txt','w') as fout:
-        prediction = predict_all(model, input)
-        
-        for line in prediction:
-            fout.write(line)
-
-
-'''
-iteration = 1 --> 90.967056%
-iteration = 5 --> 91.852639%
-iteration = 10 --> 93.446688%
-iteration = 15 --> 93.057032%
-iteration = 20 --> 93.234148%
-'''
+    ans = open('./NLPtutorial2022/duan/tutorial05/answer.txt','w')
+    prediction = predict_all(model, input)
+    for line in prediction:
+        ans.write(line)
