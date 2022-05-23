@@ -30,12 +30,11 @@ if __name__ == "__main__":
         data = line.strip().split('\t')
         ftrs = data[1]
         label = data[0]
-
         phi = create_features(ftrs)
         y_predict = predict_one(weight, phi)
         if y_predict != label:
             update_weights(weight, phi, label)
     
-    with open('./NLPtutorial2022/duan/tutorial05/model05.txt','w') as model_out:
-        for name, wgt in weight.items():
-            model_out.write(name + '\t' + str(round(wgt,6)) + '\n')
+    model_out = open('./NLPtutorial2022/duan/tutorial05/model05.txt','w')
+    for name, wgt in weight.items():
+        model_out.write(name + '\t' + str(round(wgt,6)) + '\n')
