@@ -1,0 +1,17 @@
+c = 0.0001
+iter = 1    Accuracy = 91.427559%
+iter = 2    Accuracy = 92.454835%
+iter = 4    Accuracy = 93.482111%
+iter = 8    Accuracy = 92.136026%
+iter = 16   Accuracy = 91.321289%
+iter = 32   Accuracy = 93.482111%
+iter = 64   Accuracy = 93.659228%
+iter = 128  Accuracy = 93.765498%
+
+
+iter = 8
+c = 0.0001  Accuracy = 92.136026%
+c = 0.001   Accuracy = 92.313142%
+c = 0.01    Accuracy = 86.822529%
+c = 0.1     Accuracy = 54.729012%
+c = 1.0     Accuracy = 51.753454%
