@@ -1,0 +1,56 @@
+train_num = [1,2,3,5,10,20,30,50,100]
+
+c = 0.0001
+Accuracy = 89.727241%
+Accuracy = 90.258590%
+Accuracy = 92.206872%
+Accuracy = 92.348565%
+Accuracy = 92.596529%
+Accuracy = 93.375841%
+Accuracy = 93.163301%
+Accuracy = 93.517535%
+Accuracy = 93.517535%
+
+c = 0.001
+Accuracy = 90.152320%
+Accuracy = 92.348565%
+Accuracy = 84.024088%
+Accuracy = 92.100602%
+Accuracy = 90.683670%
+Accuracy = 91.215019%
+Accuracy = 93.021608%
+Accuracy = 92.596529%
+Accuracy = 93.340418%
+
+c = 0.01
+Accuracy = 88.274885%
+Accuracy = 88.664541%
+Accuracy = 85.724407%
+Accuracy = 83.740701%
+Accuracy = 87.424725%
+Accuracy = 85.511867%
+Accuracy = 86.468296%
+Accuracy = 89.550124%
+Accuracy = 89.266738%
+
+c = 0.1
+Accuracy = 77.789586%
+Accuracy = 58.731846%
+Accuracy = 76.514346%
+Accuracy = 59.971661%
+Accuracy = 53.985122%
+Accuracy = 78.285512%
+Accuracy = 82.217499%
+Accuracy = 70.173574%
+Accuracy = 75.912150%
+
+c = 1.0
+Accuracy = 68.189869%
+Accuracy = 62.628409%
+Accuracy = 61.034361%
+Accuracy = 56.181367%
+Accuracy = 68.437832%
+Accuracy = 56.748140%
+Accuracy = 53.701736%
+Accuracy = 53.878852%
+Accuracy = 71.448813%
