@@ -1,0 +1,13 @@
+Non-effcientry Model
+c = 0.0001  Accuracy = 92.490259%
+c = 0.001   Accuracy = 87.389302%
+c = 0.01    Accuracy = 88.239462%
+c = 0.1     Accuracy = 53.808006%
+c = 1.0     Accuracy = 51.753454%
+
+Effcientry Model
+c = 0.0001  Accuracy = 90.825363%
+c = 0.001   Accuracy = 91.781792%
+c = 0.01    Accuracy = 89.408431%
+c = 0.1     Accuracy = 58.660999%
+c = 1.0     Accuracy = 67.339710%
