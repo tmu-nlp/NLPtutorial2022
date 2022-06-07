@@ -1,0 +1,95 @@
+ハイパラチューニングがキツかったです．
+HMMの方が性能が良かったし，正しくチューニングできなかった気がします．
+
+RNN
+
+iter=100
+self.node=32
+self.lam = 0.005
+
+Accuracy: 82.36% (3758/4563)
+
+Most common mistakes:
+JJ --> NN       64
+NNS --> NN      42
+NN --> NNS      41
+NNP --> NN      40
+DT --> NN       40
+NNP --> NNS     39
+RB --> NN       31
+IN --> NN       30
+JJ --> NNS      29
+-LRB- --> NN    29
+
+
+
+iter = 5
+self.node = 64
+self.lam=0.01
+Accuracy: 80.39% (3668/4563)
+
+Most common mistakes:
+JJ --> NN       117
+NNP --> NN      84
+NNS --> NN      82
+RB --> NN       59
+-LRB- --> NN    48
+DT --> NN       45
+-RRB- --> NN    45
+IN --> NN       34
+VBN --> NN      33
+VBG --> NN      30
+
+
+iter = 10
+self.node = 64
+self.lam=0.01
+Accuracy: 83.13% (3793/4563)
+
+Most common mistakes:
+JJ --> NN       102
+NNP --> NN      83
+NNS --> NN      69
+-LRB- --> NN    46
+-RRB- --> NN    45
+DT --> NN       44
+RB --> NN       41
+IN --> NN       33
+VBN --> NN      28
+VBG --> NN      19
+
+
+iter = 20
+self.node = 64
+self.lam=0.01
+Accuracy: 12.12% (553/4563)
+
+Most common mistakes:
+IN --> NN       231
+DT --> NN       182
+JJ --> NN       181
+NN --> JJ       171
+NN --> ,        170
+NNS --> NN      154
+IN --> ,        116
+IN --> JJ       107
+NNS --> ,       98
+RB --> NN       95
+
+
+HMM
+
+Accuracy: 90.82% (4144/4563)
+
+Most common mistakes:
+NNS --> NN	45
+NN --> JJ	27
+NNP --> NN	22
+JJ --> DT	22
+JJ --> NN	12
+VBN --> NN	12
+NN --> IN	11
+NN --> DT	10
+NNP --> JJ	8
+VBP --> VB	7
+
