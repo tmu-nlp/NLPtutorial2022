@@ -1,19 +1,24 @@
 from collections import defaultdict
-
+'''
+a classification ML algorithm to linearly classify given data in two parts
+ using decision boundary(a line in 2D or 3D in plane) defined as f(x, θ)=0
+ -> Discriminative model, others like linear regression, logistic regression, LDA, SVM, NN, Guassion process, CRF
+ (Generative model includes naive bayes, KNN, HMM,Bayes network, MRF)
+ y_i(θx+b) >0 or < 0 equivalent to sign() defined in function predict_one() here'''
 
 class Perceptron():
     # model online learning
     def train_perceptron(self, model_file, output_file, iter):
-        w = defaultdict(int)           # {w['uni-gram==word'] : count(w)}
+        w = defaultdict(int)           # {w['uni-gram==word'] : count(w),...}のように格納
         with open(model_file, 'r', encoding='utf-8') as m_file:
             m_file = m_file.readlines()
 
         for i in range(1, iter+1):
 
             for line in m_file:
-                y, x = line.strip().split('\t')
+                y, x = line.strip().split('\t')      # training data
                 y = int(y)
-                phi = self.create_features(x)
+                phi = self.create_features(x)         # extract features from raw text, feature: n-gram tfidf
                 y_pred = self.predict_one(w, phi)
 
                 if y_pred != y:
@@ -25,7 +30,7 @@ class Perceptron():
 
 
     # 1-gram素性を作成
-    def create_features(self,x):
+    def create_features(self, x):
         phi = defaultdict(int)
         words = x.split()
         for word in words:
