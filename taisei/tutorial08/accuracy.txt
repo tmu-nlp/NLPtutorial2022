@@ -1,0 +1,46 @@
+iter = 10  RNN(0.01, 30, 1)
+Accuracy: 86.79% (3960/4563)
+
+Most common mistakes:
+JJ --> NN	77
+NNS --> NN	66
+NNP --> NN	56
+VBN --> NN	22
+RB --> NN	21
+VBG --> NN	20
+IN --> WDT	17
+VBP --> NN	15
+VB --> NN	15
+NN --> JJ	13
+
+
+iter = 10  RNN(0.01, 5, 1)
+Accuracy: 51.74% (2361/4563)
+
+Most common mistakes:
+NNS --> JJ	267
+JJ --> NN	190
+NNS --> NN	125
+CC --> JJ	122
+RB --> JJ	111
+TO --> NNS	92
+VBN --> JJ	76
+VBZ --> NNS	69
+NNP --> NN	67
+VBN --> NN	61
+
+
+iter = 50  RNN(0.01, 80, 1)
+Accuracy: 8.57% (391/4563)
+
+Most common mistakes:
+NN --> NNS	797
+IN --> NNS	502
+JJ --> NNS	394
+DT --> NNS	363
+, --> NNS	233
+RB --> NNS	181
+. --> NNS	171
+VBN --> NNS	161
+CC --> NNS	128
+VBZ --> NNS	124
