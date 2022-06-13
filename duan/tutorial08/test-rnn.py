@@ -1,3 +1,5 @@
+# ./nlptutorial/script/gradepos.pl ./nlptutorial/data/wiki-en-test.pos ./NLPtutorial2022/duan/tutorial08/my_answer.pos
+
 import random
 import numpy as np
 from collections import defaultdict
@@ -43,7 +45,7 @@ def test_rnn():
     hidden_layer, output_layer, x_ids, y_ids = train_rnn()
     vocab_size = len(x_ids)
     output_size = len(y_ids)
-    with open('./nlptutorial/data/wiki-en-test.norm') as f, open('./NLPtutorial2022/duan/tutorial08/my_answer.txt', 'w') as f2:
+    with open('./nlptutorial/data/wiki-en-test.norm') as f, open('./NLPtutorial2022/duan/tutorial08/my_answer.pos', 'w') as f2:
         for line in f:
             h_list = list()
             tag_list = list()
@@ -129,3 +131,19 @@ def init_network(middle_node=8):
     
 if __name__ == '__main__':
    test_rnn() 
+
+'''
+Accuracy: 88.23% (4026/4563)
+
+Most common mistakes:
+NN --> NNP      72
+JJ --> NN       38
+NNS --> NNP     38
+JJ --> NNP      34
+NNS --> NN      33
+NNP --> NN      28
+VBN --> JJ      22
+VBG --> NNP     17
+VBP --> NNP     16
+RB --> NNP      14
+'''
