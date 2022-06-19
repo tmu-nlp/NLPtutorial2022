@@ -1,0 +1,15 @@
+# pos accuracy
+Accuracy: 87.07% (3973/4563)
+
+Most common mistakes:
+. --> .
+	168
+NNS --> NN	45
+NN --> JJ	27
+JJ --> DT	22
+NNP --> NN	22
+JJ --> NN	12
+VBN --> NN	12
+NN --> IN	11
+NN --> DT	10
+NNP --> JJ	8
