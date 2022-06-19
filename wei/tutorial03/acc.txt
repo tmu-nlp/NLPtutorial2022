@@ -1,0 +1,34 @@
+Sent Accuracy: 0.00% (/84)
+Word Prec: 68.96% (1864/2703)
+Word Rec: 80.80% (1864/2307)
+F-meas: 74.41%
+Bound Accuracy: 83.26% (2686/3226)
+
+# diff between model results and ground-truth answers
+1,2c1,2
+< ab c 
+< b bc 
+---
+> ab c
+> b bc
+
+# acc for valuation
+Value of <HANDLE> construct can be "0"; test with defined() at ../script/gradews.pl line 23.
+Use of uninitialized value $tlast in numeric eq (==) at ../script/gradews.pl line 58, <TEST> line 1.
+Use of uninitialized value $rlast in numeric eq (==) at ../script/gradews.pl line 58, <TEST> line 1.
+Use of uninitialized value $tlast in numeric le (<=) at ../script/gradews.pl line 61, <TEST> line 1.
+Use of uninitialized value $rlast in numeric le (<=) at ../script/gradews.pl line 61, <TEST> line 1.
+Use of uninitialized value $tlast in numeric lt (<) at ../script/gradews.pl line 64, <TEST> line 1.
+Use of uninitialized value $tlast in numeric eq (==) at ../script/gradews.pl line 58, <TEST> line 2.
+Use of uninitialized value $rlast in numeric eq (==) at ../script/gradews.pl line 58, <TEST> line 2.
+Use of uninitialized value $tlast in numeric le (<=) at ../script/gradews.pl line 61, <TEST> line 2.
+Use of uninitialized value $rlast in numeric le (<=) at ../script/gradews.pl line 61, <TEST> line 2.
+Use of uninitialized value $tlast in numeric lt (<) at ../script/gradews.pl line 64, <TEST> line 2.
+Use of uninitialized value $cors in division (/) at ../script/gradews.pl line 69, <REF> line 2.
+Use of uninitialized value $cors in concatenation (.) or string at ../script/gradews.pl line 69, <REF> line 2.
+Sent Accuracy: 0.00% (/2)
+Word Prec: 100.00% (4/4)
+Word Rec: 100.00% (4/4)
+F-meas: 100.00%
+Bound Accuracy: 100.00% (4/4)
+
