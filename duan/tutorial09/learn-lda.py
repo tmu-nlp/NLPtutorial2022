@@ -1,7 +1,7 @@
 import numpy as np
 from collections import defaultdict
 
-NUM_TOPICS = 2
+NUM_TOPICS = 5
 ITER = 5
 
 class LDA:
