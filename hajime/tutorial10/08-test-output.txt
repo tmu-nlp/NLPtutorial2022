@@ -1,0 +1,15 @@
+        S                                     
+   _____|___________                           
+  |                 VP                        
+  |      ___________|____                      
+  |     |               VP'                   
+  |     |        ________|____                 
+  |     |       |             PP              
+  |     |       |         ____|___             
+  |     |       NP       |        NP          
+  |     |    ___|___     |     ___|______      
+NP_PRP VBD  DT      NN   IN   DT         NN   
+  |     |   |       |    |    |          |     
+  i    saw  a      girl with  a      telescope
+
+(S (NP_PRP i) (VP (VBD saw) (VP' (NP (DT a) (NN girl)) (PP (IN with) (NP (DT a) (NN telescope))))))
