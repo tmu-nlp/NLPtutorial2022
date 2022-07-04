@@ -26,10 +26,13 @@ class CKY():
     def cky_algorithm(self, input_file):
         with open(input_file, "r") as i_file:
             for line in i_file:
+                self.best_score = defaultdict(lambda: -math.inf)
+                self.best_edge = {}
                 words = line.strip().split(" ")
                 for i in range(len(words)):
-                    for lhs, log_prob in self.preterm[words[i]]:
-                        self.best_score[f"{lhs} {i} {i+1}"] = log_prob
+                    if self.preterm[words[i]]:
+                        for lhs, log_prob in self.preterm[words[i]]:
+                            self.best_score[f"{lhs} {i} {i+1}"] = log_prob
                 self.combination_nonterminal(words)
                 tree_line = self.print_tree(f"S 0 {len(words)}", words)
                 t = Tree.fromstring(tree_line)
@@ -65,12 +68,12 @@ class CKY():
 
 if __name__ == "__main__":
 
-    # grammar_file1 = "test/08-grammar.txt"
-    # input_file1 = "test/08-input.txt"
-    # cky1 = CKY(grammar_file1)
-    # cky1.cky_algorithm(input_file1)
+    grammar_file1 = "test/08-grammar.txt"
+    input_file1 = "test/08-input.txt"
+    cky1 = CKY(grammar_file1)
+    cky1.cky_algorithm(input_file1)
 
-    grammar_file2 = "data/wiki-en-test.grammar"
-    input_file2 = "data/wiki-en-short.tok"
-    cky2 = CKY(grammar_file2)
-    cky2.cky_algorithm(input_file2)
+    # grammar_file2 = "data/wiki-en-test.grammar"
+    # input_file2 = "data/wiki-en-short.tok"
+    # cky2 = CKY(grammar_file2)
+    # cky2.cky_algorithm(input_file2)
