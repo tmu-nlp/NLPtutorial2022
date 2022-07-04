@@ -1,0 +1,1231 @@
+                                                             S                                                        
+              _______________________________________________|_____________________                                    
+             |                                                                     S'                                 
+             |                                                _____________________|________________________________   
+             |                                               VP                                                     | 
+             |                                           ____|____                                                  |  
+             PP                                         |         VP                                                | 
+   __________|______                                    |     ____|________________                                 |  
+  |                 NP                                  |    |                    VP'                               | 
+  |      ___________|_______                            |    |              _______|______________________          |  
+  |     |                  NP'                          |    |             NP                             |         | 
+  |     |     ______________|_____                      |    |     ________|_______                       |         |  
+  |     |    |                   NP'                    |    |    |               NP'                     |         | 
+  |     |    |       _____________|______               |    |    |         _______|__________            |         |  
+  |     |    |      |                   NP'             |    |    |       ADJP                |           PP        | 
+  |     |    |      |              ______|______        |    |    |    ____|_______           |        ___|____     |  
+  IN    DT   ,      JJ            NN           NNS     VBP  VBN   DT RBS           JJ        NNS      TO     NP_NN  . 
+  |     |    |      |             |             |       |    |    |   |            |          |       |        |    |  
+Among these  ,  supervised     learning     approaches have been the most      successful algorithms  to      date  . 
+
+(S (PP (IN Among) (NP (DT these) (NP' (, ,) (NP' (JJ supervised) (NP' (NN learning) (NNS approaches)))))) (S' (VP (VBP have) (VP (VBN been) (VP' (NP (DT the) (NP' (ADJP (RBS most) (JJ successful)) (NNS algorithms))) (PP (TO to) (NP_NN date))))) (. .)))
+                                          S                                               
+          ________________________________|______                                          
+         |                                       S'                                       
+         |                    ___________________|______________________________________   
+         |                   VP                                                         | 
+         |             ______|______                                                    |  
+         |            |            ADJP                                                 | 
+         |            |       ______|_____                                              |  
+         |            |      |           S_VP                                           | 
+         |            |      |       _____|____________                                 |  
+         |            |      |      |                  VP                               | 
+         |            |      |      |      ____________|_______                         |  
+         |            |      |      |     |                    PP                       | 
+         |            |      |      |     |       _____________|____                    |  
+         |            |      |      |     |      |                  NP                  | 
+         |            |      |      |     |      |          ________|_______            |  
+         NP           |      |      |     |      |         NP               PP          | 
+    _____|_____       |      |      |     |      |      ___|___          ___|_____      |  
+   JJ          NN    VBZ     JJ     TO    VB     IN    DT      NN       IN      NP_NNS  . 
+   |           |      |      |      |     |      |     |       |        |         |     |  
+Current     accuracy  is difficult  to  state without  a      host      of     caveats  . 
+
+(S (NP (JJ Current) (NN accuracy)) (S' (VP (VBZ is) (ADJP (JJ difficult) (S_VP (TO to) (VP (VB state) (PP (IN without) (NP (NP (DT a) (NN host)) (PP (IN of) (NP_NNS caveats)))))))) (. .)))
+                                                        S                                                  
+      __________________________________________________|_________                                          
+     |                                                            S'                                       
+     |                                                   _________|______________________________________   
+     |                                                  VP                                               | 
+     |         _________________________________________|_________                                       |  
+     |        |                                                   NP                                     | 
+     |        |                         __________________________|___________                           |  
+     |        |                        NP                                    NP'                         | 
+     |        |        ________________|_____                          _______|____                      |  
+     |        |       |                     NP'                       |            NP                    | 
+     |        |       |             _________|_____                   |    ________|____                 |  
+     |        |       |            |              NP'                 |   |            NP'               | 
+     |        |       |            |    ___________|____              |   |    _________|___             |  
+     |        |       |            |   |               NP'            |   |   |            NP'           | 
+     |        |       |            |   |      __________|_____        |   |   |     ________|___         |  
+     NP       |       NP           |   |     |               NP'      |   |   |    |           NP'       | 
+  ___|___     |    ___|_____       |   |     |           _____|___    |   |   |    |         ___|___     |  
+NNP      NN  VBZ  CD       NNS     :   ``    JJ         NN        ''  CC  `` PDT  NNS       ''      NN   . 
+ |       |    |   |         |      |   |     |          |         |   |   |   |    |        |       |    |  
+WSD     task has two     variants  :   `` lexical     sample      '' and  `` all words      ''     task  . 
+
+(S (NP (NNP WSD) (NN task)) (S' (VP (VBZ has) (NP (NP (NP (CD two) (NNS variants)) (NP' (: :) (NP' (`` ``) (NP' (JJ lexical) (NP' (NN sample) ('' '')))))) (NP' (CC and) (NP (`` ``) (NP' (PDT all) (NP' (NNS words) (NP' ('' '') (NN task)))))))) (. .)))
+                       S                                
+               ________|____________________             
+              NP                            S'          
+      ________|________                  ___|_________   
+     NP                PP               VP            | 
+  ___|____          ___|___          ___|___          |  
+ |       NP'       |       NP       |      ADJP       | 
+ |    ____|___     |    ___|___     |    ___|____     |  
+ DT  NN       NN   IN  DT      NN  VBZ  RB       JJ   . 
+ |   |        |    |   |       |    |   |        |    |  
+The bass     line  of the     song  is too      weak  . 
+
+(S (NP (NP (DT The) (NP' (NN bass) (NN line))) (PP (IN of) (NP (DT the) (NN song)))) (S' (VP (VBZ is) (ADJP (RB too) (JJ weak))) (. .)))
+                                                       S                                           
+        _______________________________________________|__________                                  
+       |                                                          S'                               
+       |                                                __________|______________________________   
+       |                                               VP                                        | 
+       |                   ____________________________|__________                               |  
+       |                  |                                      VP'                             | 
+       |                  |                             __________|________________________      |  
+       |                  |                            NP                                  |     | 
+       |                  |                         ___|______________________             |     |  
+       |                  |                        NP                         |            |     | 
+       |                  |        ________________|___                       |            |     |  
+       |                  |       |                   NP'                     |            |     | 
+       |                  |       |        ____________|___                   |            |     |  
+       NP                 |       |       |               NP'                 PP           |     | 
+   ____|_______           |       |       |             ___|______         ___|____        |     |  
+  JJ          NNS        VBD      DT      NN           CC         NN      IN     NP_NNP ADVP_RB  . 
+  |            |          |       |       |            |          |       |        |       |     |  
+Early     researchers understood the significance     and     difficulty  of      WSD     well   . 
+
+(S (NP (JJ Early) (NNS researchers)) (S' (VP (VBD understood) (VP' (NP (NP (DT the) (NP' (NN significance) (NP' (CC and) (NN difficulty)))) (PP (IN of) (NP_NNP WSD))) (ADVP_RB well))) (. .)))
+                S                                                           
+    ____________|_____________________                                       
+   |                                  S'                                    
+   |      ____________________________|______                                
+   |     |                                   S'                             
+   |     |               ____________________|_________                      
+   |     |              |                              S'                   
+   |     |              |                         _____|__________________   
+   |     |              |                        VP                       | 
+   |     |              |              __________|_____                   |  
+   |     |              |             |               S_VP                | 
+   |     |              |             |       _________|_____             |  
+   |     |              NP            |      |               VP           | 
+   |     |       _______|_____        |      |          _____|_____       |  
+ADVP_RB  ,      JJ           NNS     VBP     TO        VB       ADVP_RBS  . 
+   |     |      |             |       |      |         |           |      |  
+ Still   ,  supervised     systems continue  to     perform       best    . 
+
+(S (ADVP_RB Still) (S' (, ,) (S' (NP (JJ supervised) (NNS systems)) (S' (VP (VBP continue) (S_VP (TO to) (VP (VB perform) (ADVP_RBS best)))) (. .)))))
+                                                                                          S                                                                     
+                               ___________________________________________________________|_______________________                                               
+                              |                                                                                   S'                                            
+                              |                                             ______________________________________|____________________                          
+                              |                                            |                                                           S'                       
+                              |                                            |                                                      _____|______________________   
+                              |                                            |                                                     VP                           | 
+                              |                                            |                                       ______________|_____                       |  
+                              |                                            NP                                     |                    VP                     | 
+                              |                                 ___________|_________                             |      ______________|___                   |  
+                              |                                |                     PP                           |     |                 SBAR                | 
+                              |                                |            _________|____                        |     |         _________|_____             |  
+                              NP                               |           |              NP                      |     |        |               S            | 
+               _______________|___________                     |           |     _________|____                   |     |        |          _____|______      |  
+              NP                          PP                   NP          |    |             NP'                 |     |        |         NP           |     | 
+      ________|_______               _____|_______          ___|_____      |    |          ____|________          |     |        |      ___|_____       |     |  
+     JJ              NNS            IN          NP_NNS     CD        NN    IN   NN        NN            NN       VBZ   VBG    WHNP_WP  DT       NNS   VP_VBP  . 
+     |                |             |             |        |         |     |    |         |             |         |     |        |     |         |      |     |  
+Difficulties     Differences     between     dictionaries One     problem with word     sense     disambiguation  is deciding   what  the      senses  are    . 
+
+(S (NP (NP (JJ Difficulties) (NNS Differences)) (PP (IN between) (NP_NNS dictionaries))) (S' (NP (NP (CD One) (NN problem)) (PP (IN with) (NP (NN word) (NP' (NN sense) (NN disambiguation))))) (S' (VP (VBZ is) (VP (VBG deciding) (SBAR (WHNP_WP what) (S (NP (DT the) (NNS senses)) (VP_VBP are))))) (. .))))
+                                           S                                                            
+       ____________________________________|________                                                     
+      PP                                            |                                                   
+  ____|__________                                   |                                                    
+ |               NP                                 S'                                                  
+ |     __________|___                       ________|______________                                      
+ |    |              PP                    |                       S'                                   
+ |    |      ________|____                 |              _________|___________________                  
+ |    |     |             NP               |             NP                            S'               
+ |    |     |         ____|__________      |         ____|_________              ______|______________   
+ |    |     |        NP              |     |        QP             |            VP                    | 
+ |    |     |     ___|____           |     |    ____|____          |      ______|______               |  
+ |    |     |    |       NP'         |     |   |        QP'        |     |            ADJP            | 
+ |    |     |    |    ____|___       |     |   |     ____|___      |     |       ______|_______       |  
+ IN NP_NNS  IN   DT  NN       NN  ADVP_IN  ,   IN  JJS       DT   NNS   VBP     RB             JJ     . 
+ |    |     |    |   |        |      |     |   |    |        |     |     |      |              |      |  
+ In cases  like the word     bass  above   ,   at least     some senses are obviously      different  . 
+
+(S (PP (IN In) (NP (NP_NNS cases) (PP (IN like) (NP (NP (DT the) (NP' (NN word) (NN bass))) (ADVP_IN above))))) (S' (, ,) (S' (NP (QP (IN at) (QP' (JJS least) (DT some))) (NNS senses)) (S' (VP (VBP are) (ADJP (RB obviously) (JJ different))) (. .)))))
+                                                                    S                                                     
+                             _______________________________________|____________________                                  
+                            |                                                            S'                               
+                            |                               _____________________________|______________________________   
+                            |                              VP                                                           | 
+                            |                        ______|________                                                    |  
+                            |                       |               VP                                                  | 
+                            |                       |       ________|____________________                               |  
+                            |                       |      |                             NP                             | 
+                            |                       |      |                _____________|__________                    |  
+                            |                       |      |               |                        PP                  | 
+                            |                       |      |               |              __________|___                |  
+                            NP                      |      |               |             |              NP              | 
+            ________________|_______                |      |               |             |     _________|____           |  
+           NP                      NP'              |      |               NP            |    |              PP         | 
+     ______|_______              ___|_______        |      |         ______|______       |    |          ____|____      |  
+    JJ            NNS           CC         NNS      MD     VB       JJ           NNS     IN NP_NNS      IN      NP_NNS  . 
+    |              |            |           |       |      |        |             |      |    |         |         |     |  
+Different     dictionaries     and     thesauruses will provide different     divisions  of words      into     senses  . 
+
+(S (NP (NP (JJ Different) (NNS dictionaries)) (NP' (CC and) (NNS thesauruses))) (S' (VP (MD will) (VP (VB provide) (NP (NP (JJ different) (NNS divisions)) (PP (IN of) (NP (NP_NNS words) (PP (IN into) (NP_NNS senses))))))) (. .)))
+                                                                S                                                 
+                      __________________________________________|______________________                            
+                     |                                                                 S'                         
+                     |                                                           ______|________________________   
+                     S                                                          VP                              | 
+        _____________|________                                   _______________|______                         |  
+       |                      VP                                |                      NP                       | 
+       |              ________|________                         |            __________|______                  |  
+       |             |                 PP                       |           |                NP'                | 
+       |             |     ____________|_________               |           |           ______|___              |  
+       NP            |    |                      NP             |           NP         |         NP'            | 
+   ____|______       |    |             _________|_____         |       ____|___       |       ___|______       |  
+  JJ         NNS    VBN   IN           NN             NNS      VBP    NNP      POS    NNS     CC       NP_NNP   . 
+  |           |      |    |            |               |        |      |        |      |      |          |      |  
+Other     resources used for     disambiguation     purposes include Roget      's Thesaurus and     Wikipedia  . 
+
+(S (S (NP (JJ Other) (NNS resources)) (VP (VBN used) (PP (IN for) (NP (NN disambiguation) (NNS purposes))))) (S' (VP (VBP include) (NP (NP (NNP Roget) (POS 's)) (NP' (NNS Thesaurus) (NP' (CC and) (NP_NNP Wikipedia))))) (. .)))
+                              S                                                                                                         
+   ___________________________|_____________________________                                                                             
+  |                                                         S'                                                                          
+  |              ___________________________________________|_________________________________________________________________________   
+  |             VP                                                                                                                    | 
+  |      _______|_____________                                                                                                        |  
+  |     |                    ADJP                                                                                                     | 
+  |     |        _____________|_________                                                                                              |  
+  |     |       |                      S_VP                                                                                           | 
+  |     |       |        _______________|___________________________________                                                          |  
+  |     |       |       |                                                   VP                                                        | 
+  |     |       |       |      _____________________________________________|_____                                                    |  
+  |     |       |       |     |                                                   NP                                                  | 
+  |     |       |       |     |                    _______________________________|______________                                     |  
+  |     |       |       |     |                   |                                              PP                                   | 
+  |     |       |       |     |                   |                                ______________|_____                               |  
+  |     |       |       |     |                   NP                              |                    NP                             | 
+  |     |       |       |     |          _________|___________________            |         ___________|________                      |  
+  |     |       |       |     |         NP                            |           |        |                    PP                    | 
+  |     |       |       |     |      ___|____                         |           |        |            ________|_________            |  
+  |     |       |       |     |     |       NP'                      NP'          |        NP          |                  NP          | 
+  |     |       |       |     |     |    ____|____           _________|_____      |     ___|_____      |         _________|_____      |  
+NP_PRP VBZ      JJ      TO    VB    DT  NN        NN        NN              NN    IN   DT        NN    IN       JJ              NN    . 
+  |     |       |       |     |     |   |         |         |               |     |    |         |     |        |               |     |  
+  It    is instructive  to compare the word     sense disambiguation     problem with the     problem  of part-of-speech     tagging  . 
+
+(S (NP_PRP It) (S' (VP (VBZ is) (ADJP (JJ instructive) (S_VP (TO to) (VP (VB compare) (NP (NP (NP (DT the) (NP' (NN word) (NN sense))) (NP' (NN disambiguation) (NN problem))) (PP (IN with) (NP (NP (DT the) (NN problem)) (PP (IN of) (NP (JJ part-of-speech) (NN tagging)))))))))) (. .)))
+                                                                  S                                                     
+          ________________________________________________________|________________                                      
+         |                                                                         S'                                   
+         |                                                     ____________________|_____                                
+         |                                                    |                          S'                             
+         |                                                    |         _________________|____________________________   
+         S                                                    |        VP                                             | 
+   ______|____________________                                |    ____|_____                                         |  
+  |                           VP                              |   |         VP'                                       | 
+  |       ____________________|_____                          |   |     _____|___________                             |  
+  |      |                         S_VP                       |   |    |                 PP                           | 
+  |      |           _______________|_____                    |   |    |      ___________|________                    |  
+  |      |          |                    VP'                  |   |    |     |                    NP                  | 
+  |      |          |          ___________|___                |   |    |     |            ________|________           |  
+  |      |          |         |               VP              |   |    |     |           NP                |          | 
+  |      |          |         |      _________|____           |   |    |     |      _____|___              |          |  
+  |      |          |         |     |              PP         |   |    |     |     |        NP'            PP         | 
+  |      |          |         |     |          ____|____      |   |    |     |     |      ___|____      ___|____      |  
+NP_DT   VBP        VBG        CC   VBG        IN      NP_NNS  ,   VB NP_PRP  IN   NNS    CC      NNS   IN     NP_NN   . 
+  |      |          |         |     |         |         |     |   |    |     |     |     |        |    |        |     |  
+ Both involve disambiguating  or tagging     with     words   ,   be   it   with senses  or     parts  of     speech  . 
+
+(S (S (NP_DT Both) (VP (VBP involve) (S_VP (VBG disambiguating) (VP' (CC or) (VP (VBG tagging) (PP (IN with) (NP_NNS words))))))) (S' (, ,) (S' (VP (VB be) (VP' (NP_PRP it) (PP (IN with) (NP (NP (NNS senses) (NP' (CC or) (NNS parts))) (PP (IN of) (NP_NN speech)))))) (. .))))
+                                   S                                                                                             
+                    _______________|____________________                                                                          
+                   |                                    S'                                                                       
+                   |                                 ___|_______                                                                  
+                   |                                |           S'                                                               
+                   |                                |    _______|_______________________                                          
+                   |                                |   |                               S'                                       
+                   |                                |   |            ___________________|______________________________________   
+                   |                                |   |           VP                                                         | 
+                   |                                |   |    _______|___________________                                       |  
+                   |                                |   |   |                           VP                                     | 
+                   |                                |   |   |    _______________________|_____                                 |  
+                   |                                |   |   |   |                            VP'                               | 
+                   |                                |   |   |   |         ____________________|____                            |  
+                   S                                |   |   |   |        |                         PP                          | 
+        ___________|___________                     |   |   |   |        |               __________|___                        |  
+       |                       VP                   |   |   |   |        |              |              NP                      | 
+       |            ___________|___                 |   |   |   |        |              |      ________|____                   |  
+       |           |              ADJP              |   |   |   |        |              |     |             PP                 | 
+       |           |      _________|____            |   |   |   |        |              |     |     ________|____              |  
+       NP          |     |              PP          |   |   |   |       ADJP            |     |    |             NP            | 
+   ____|_____      |     |          ____|_____      |   |   |   |    ____|_______       |     |    |         ____|______       |  
+  DT        NNS   VBP    JJ        IN       NP_NNP  ,   CC  MD  VB  RB           JJ     IN  NP_DT  IN       JJ         NNS     . 
+  |          |     |     |         |          |     |   |   |   |   |            |      |     |    |        |           |      |  
+These     figures are typical     for      English  ,  and may  be very      different from those for     other     languages  . 
+
+(S (S (NP (DT These) (NNS figures)) (VP (VBP are) (ADJP (JJ typical) (PP (IN for) (NP_NNP English))))) (S' (, ,) (S' (CC and) (S' (VP (MD may) (VP (VB be) (VP' (ADJP (RB very) (JJ different)) (PP (IN from) (NP (NP_DT those) (PP (IN for) (NP (JJ other) (NNS languages)))))))) (. .)))))
+                                        S                                    
+                       _________________|_____________________                
+                      S                                       S'             
+      ________________|_____                           _______|____________   
+     |                      VP                        VP                   | 
+     |          ____________|_____             _______|_______             |  
+     |         |                  NP          |               NP           | 
+     |         |             _____|_____      |        _______|_____       |  
+   NP_NNP     VBP           DT          NN   VBZ      JJ            NN     . 
+     |         |            |           |     |       |             |      |  
+Inter-judge variance     Another     problem  is inter-judge     variance  . 
+
+(S (S (NP_NNP Inter-judge) (VP (VBP variance) (NP (DT Another) (NN problem)))) (S' (VP (VBZ is) (NP (JJ inter-judge) (NN variance))) (. .)))
+                                                                  S                                                               
+            ______________________________________________________|_______________________________________                         
+           S                                                                                              |                       
+      _____|___________                                                                                   |                        
+     |                 VP                                                                                 |                       
+     |            _____|_______                                                                           |                        
+     |           |            VP'                                                                         |                       
+     |           |      _______|_____                                                                     |                        
+     |           |     |             VP                                                                   S'                      
+     |           |     |        _____|____                                                            ____|_____________________   
+     |           |     |       |          PP                                                         VP                         | 
+     |           |     |       |      ____|_________________                          _______________|____                      |  
+     |           |     |       |     |                     S_VP                      |                    PP                    | 
+     |           |     |       |     |     _________________|_____                   |         ___________|___                  |  
+     |           |     |       |     |    |                       NP                 |        |               NP                | 
+     |           |     |       |     |    |            ___________|___               |        |       ________|___              |  
+     |           |     |       |     |    |           |               PP             |        |      |            PP            | 
+     |           |     |       |     |    |           |            ___|___           |        |      |     _______|___          |  
+     NP          |     |       |     |    |           NP          |       NP         |        |      |    |           NP        | 
+  ___|_____      |     |       |     |    |       ____|_____      |    ___|___       |        |      |    |        ___|____     |  
+NNP       NNS   VBP ADVP_RB   VBN    IN  VBG    PRP$       NNS    IN  DT      NN    VBN       IN   NP_DT  IN      DT       NN   . 
+ |         |     |     |       |     |    |      |          |     |   |       |      |        |      |    |       |        |    |  
+WSD     systems are normally tested  by having their     results  on  a      task compared against those  of      a      human  . 
+
+(S (S (NP (NNP WSD) (NNS systems)) (VP (VBP are) (VP' (ADVP_RB normally) (VP (VBN tested) (PP (IN by) (S_VP (VBG having) (NP (NP (PRP$ their) (NNS results)) (PP (IN on) (NP (DT a) (NN task)))))))))) (S' (VP (VBN compared) (PP (IN against) (NP (NP_DT those) (PP (IN of) (NP (DT a) (NN human)))))) (. .)))
+                       S                                                                                               
+  _____________________|_____________________________                                                                   
+ |                                                   S'                                                                
+ |                      _____________________________|_______________________________________________________________   
+ |                     VP                                                                                            | 
+ |     ________________|_____________________________                                                                |  
+ |    |                                             VP'                                                              | 
+ |    |      ________________________________________|_____                                                          |  
+ |    |     |                                           VP_SBAR                                                      | 
+ |    |     |                     _________________________|____________                                             |  
+ |    |     |                    |                                    SBAR'                                          | 
+ |    |     |                    |                    __________________|_________                                   |  
+ |    |     |                    |                   |                           PRN                                 | 
+ |    |     |                    |                   |      ______________________|____________                      |  
+ |    |     |                    |                   |     |                                  PRN'                   | 
+ |    |     |                    |                   |     |                       ____________|________________     |  
+ |    |     |                    |                   |     |                      S                             |    | 
+ |    |     |                    |                   |     |       _______________|________                     |    |  
+ |    |     |                   SBAR                 |     |      |                        VP                   |    | 
+ |    |     |           _________|__________         |     |      |      __________________|___                 |    |  
+ |    |     |          S                    |        |     |      |     |                     VP'               |    | 
+ |    |     |     _____|___                 |        |     |      |     |          ____________|____            |    |  
+ |    |     |    |         VP             SBAR'      |     |      |     |         |                 NP          |    | 
+ |    |     |    |      ___|_____       ____|____    |     |      |     |         |             ____|____       |    |  
+ `` VP_VBZ  CC NP_NNP VBP      NP_NNS  .         ''  :   -LRB-  NP_DT  VBZ     ADVP_RB         DT        NN   -RRB-  . 
+ |    |     |    |     |         |     |         |   |     |      |     |         |            |         |      |    |  
+ ``  Jill  and  Mary  are     mothers  .         ''  --  -LRB-   each   is  independently      a       mother -RRB-  . 
+
+(S (`` ``) (S' (VP (VP_VBZ Jill) (VP' (CC and) (VP_SBAR (SBAR (S (NP_NNP Mary) (VP (VBP are) (NP_NNS mothers))) (SBAR' (. .) ('' ''))) (SBAR' (: --) (PRN (-LRB- -LRB-) (PRN' (S (NP_DT each) (VP (VBZ is) (VP' (ADVP_RB independently) (NP (DT a) (NN mother))))) (-RRB- -RRB-))))))) (. .)))
+                                                  S                                            
+                 _________________________________|________________                             
+                |                                                  S'                          
+                |                                  ________________|__________                  
+               S_VP                               |                           S'               
+  ______________|_______                          |                 __________|______________   
+ |                      VP                        |                VP                        | 
+ |      ________________|_____                    |      __________|_____                    |  
+ |     |                     VP'                  |     |                VP                  | 
+ |     |         _____________|___                |     |     ___________|____               |  
+ |     |        |                 NP              |     |    |                NP             | 
+ |     |        |        _________|___            |     |    |      __________|____          |  
+ |     |        |       |             PP          |     |    |     |              NP'        | 
+ |     |        |       |          ___|____       |     |    |     |           ____|____     |  
+ TO ADVP_RB     VB    NP_NNS      IN     NP_NNS NP_PRP  MD   VB    JJ         NN       NNS   . 
+ |     |        |       |         |        |      |     |    |     |          |         |    |  
+ To properly identify senses      of     words   one   must know common     sense     facts  . 
+
+(S (S_VP (TO To) (VP (ADVP_RB properly) (VP' (VB identify) (NP (NP_NNS senses) (PP (IN of) (NP_NNS words)))))) (S' (NP_PRP one) (S' (VP (MD must) (VP (VB know) (NP (JJ common) (NP' (NN sense) (NNS facts))))) (. .))))
+         S                                                                                                
+    _____|______________________                                                                           
+   |                            S'                                                                        
+   |      ______________________|_______________________                                                   
+   |     |                                              S'                                                
+   |     |                       _______________________|____________                                      
+   |     |                      |                                    S'                                   
+   |     |                      |                              ______|__________________________________   
+   |     |                      |                             VP                                        | 
+   |     |                      |                   __________|______                                   |  
+   |     |                      |                  |                 VP                                 | 
+   |     |                      |                  |     ____________|___                               |  
+   |     |                      |                  |    |                VP                             | 
+   |     |                      |                  |    |      __________|______                        |  
+   |     |                      NP                 |    |     |                 PP                      | 
+   |     |               _______|_________         |    |     |       __________|______                 |  
+   |     |             ADJP               |        |    |     |      |                 NP               | 
+   |     |       _______|_______          |        |    |     |      |           ______|_______         |  
+ADVP_RB  ,      RB              JJ       NNS       MD   VB   VBN     IN         JJ            NNS       . 
+   |     |      |               |         |        |    |     |      |          |              |        |  
+  Also   ,  completely      different algorithms might  be required  by     different     applications  . 
+
+(S (ADVP_RB Also) (S' (, ,) (S' (NP (ADJP (RB completely) (JJ different)) (NNS algorithms)) (S' (VP (MD might) (VP (VB be) (VP (VBN required) (PP (IN by) (NP (JJ different) (NNS applications)))))) (. .)))))
+                             S                                                                          
+        _____________________|_____________                                                              
+       |                                   S'                                                           
+       |                      _____________|___________________                                          
+       |                     |                                 S'                                       
+       |                     |        _________________________|____                                     
+       |                     |       |                              S'                                  
+       |                     |       |                  ____________|_________________________________   
+       |                     |       |                 VP                                             | 
+       |                     |       |             ____|____________                                  |  
+       |                     |       |            |                 NP                                | 
+       |                     |       |            |         ________|__________                       |  
+       |                     |       |            |        |                   PP                     | 
+       |                     |       |            |        |         __________|___                   |  
+       PP                    |       |            |        |        |              NP                 | 
+  _____|_____                |       |            |        |        |     _________|____              |  
+ |           NP              |       NP           |        NP       |    |             NP'            | 
+ |      _____|_______        |    ___|_____       |     ___|___     |    |          ____|______       |  
+ IN    NN            NN      ,   DT        NN    VBZ   DT      NN   IN   NN        NN          NN     . 
+ |     |             |       |   |         |      |    |       |    |    |         |           |      |  
+ In machine     translation  ,  the     problem takes the     form  of target     word     selection  . 
+
+(S (PP (IN In) (NP (NN machine) (NN translation))) (S' (, ,) (S' (NP (DT the) (NN problem)) (S' (VP (VBZ takes) (NP (NP (DT the) (NN form)) (PP (IN of) (NP (NN target) (NP' (NN word) (NN selection)))))) (. .)))))
+                                                             S                                                                          
+                        _____________________________________|_______________________________________________                            
+                       S                                                                                     |                          
+               ________|_____________                                                                        |                           
+              |                      VP                                                                      |                          
+              |                 _____|_______                                                                |                           
+              |                |            VP'                                                              |                          
+              |                |      _______|_______________                                                |                           
+              |                |     |                      VP'                                              |                          
+              |                |     |        _______________|_______                                        |                           
+              |                |     |       |                       PP                                      S'                         
+              |                |     |       |                _______|____                                ___|________________________   
+              |                |     |       |               |            NP                             VP                           | 
+              |                |     |       |               |    ________|____              ____________|___                         |  
+              NP               |     |       NP              |   |            NP'           |               ADJP                      | 
+      ________|___             |     |    ___|____           |   |    _________|____        |      __________|_____                   |  
+     |            PP           |     |   |       NP'         |   |   |             NP'      |     |              ADJP'                | 
+     |         ___|____        |     |   |    ____|____      |   |   |          ____|___    |     |           _____|_________         |  
+   NP_NNS     IN     NP_NNS ADVP_RB  ,   DT  JJ        NN    IN  ``  NN        NN       '' VBZ    JJ         CC              JJ       . 
+     |        |        |       |     |   |   |         |     |   |   |         |        |   |     |          |               |        |  
+Discreteness  of     senses Finally  ,  the very     notion  of  `` word     sense      ''  is slippery     and        controversial  . 
+
+(S (S (NP (NP_NNS Discreteness) (PP (IN of) (NP_NNS senses))) (VP (ADVP_RB Finally) (VP' (, ,) (VP' (NP (DT the) (NP' (JJ very) (NN notion))) (PP (IN of) (NP (`` ``) (NP' (NN word) (NP' (NN sense) ('' ''))))))))) (S' (VP (VBZ is) (ADJP (JJ slippery) (ADJP' (CC and) (JJ controversial)))) (. .)))
+                                       S                                                
+       ________________________________|_____________                                    
+      |                                              S'                                 
+      |                                 _____________|________________________________   
+      |                                VP                                             | 
+      |            ____________________|_____________                                 |  
+      |           |                                 VP'                               | 
+      |           |                     _____________|_________________________       |  
+      |           |                    PP                                      |      | 
+      |           |    ________________|_____________                          |      |  
+      |           |   |                              NP                        |      | 
+      |           |   |                 _____________|__________               |      |  
+      |           |   |                NP                       |              |      | 
+      |           |   |       _________|_______                 |              |      |  
+      NP          |   |      |                NP'              NP'             |      | 
+  ____|_____      |   |      |          _______|_____        ___|_____         |      |  
+ JJ         NN   VBZ  IN     NN        NN            NN     CC        NN    ADJP_JJ   . 
+ |          |     |   |      |         |             |      |         |        |      |  
+Word     meaning  is  in principle infinitely     variable and     context sensitive  . 
+
+(S (NP (JJ Word) (NN meaning)) (S' (VP (VBZ is) (VP' (PP (IN in) (NP (NP (NN principle) (NP' (NN infinitely) (NN variable))) (NP' (CC and) (NN context)))) (ADJP_JJ sensitive))) (. .)))
+                                 S                                                       
+   ______________________________|_____                                                   
+  |                                    S'                                                
+  |           _________________________|_______________________________________________   
+  |          VP                                                                        | 
+  |      ____|____                                                                     |  
+  |     |        VP'                                                                   | 
+  |     |     ____|______                                                              |  
+  |     |    |           VP                                                            | 
+  |     |    |     ______|_______                                                      |  
+  |     |    |    |             VP'                                                    | 
+  |     |    |    |       _______|____________                                         |  
+  |     |    |    |      |                   VP'                                       | 
+  |     |    |    |      |        ____________|______                                  |  
+  |     |    |    |      |       |                   PP                                | 
+  |     |    |    |      |       |      _____________|___                              |  
+  |     |    |    |      |       |     |                 NP                            | 
+  |     |    |    |      |       |     |       __________|_____                        |  
+  |     |    |    |      |       |     |      |               NP'                      | 
+  |     |    |    |      |       |     |      |       _________|______                 |  
+  |     |    |    |      |       |     |      |      |                NP               | 
+  |     |    |    |      |       |     |      |      |          ______|_______         |  
+NP_PRP VBZ   RB   VB   PRT_RP ADVP_RB  IN     JJ     CC        JJ            NNS       . 
+  |     |    |    |      |       |     |      |      |         |              |        |  
+  It   does not divide   up    easily into distinct  or     discrete     sub-meanings  . 
+
+(S (NP_PRP It) (S' (VP (VBZ does) (VP' (RB not) (VP (VB divide) (VP' (PRT_RP up) (VP' (ADVP_RB easily) (PP (IN into) (NP (JJ distinct) (NP' (CC or) (NP (JJ discrete) (NNS sub-meanings)))))))))) (. .)))
+                                          S                                                    
+   _______________________________________|________                                             
+  |                                                S'                                          
+  |                   _____________________________|_________________________________________   
+  |                  VP                                                                      | 
+  |         _________|__________                                                             |  
+  |        |                    NP                                                           | 
+  |        |                ____|_________                                                   |  
+  |        |               |              PP                                                 | 
+  |        |               |           ___|_____________________                             |  
+  |        |               |          |                         NP                           | 
+  |        |               |          |             ____________|_________                   |  
+  |        |               |          |            NP                     PP                 | 
+  |        |               |          |    ________|________          ____|____              |  
+  |        |               NP         |   |                NP'       |         NP            | 
+  |        |          _____|____      |   |         ________|___     |     ____|______       |  
+NP_NNP    VBZ        JJ         NN    TO  DT       JJ           NN   IN   NN          NN     . 
+  |        |         |          |     |   |        |            |    |    |           |      |  
+ Deep  approaches presume     access  to  a  comprehensive     body  of world     knowledge  . 
+
+(S (NP_NNP Deep) (S' (VP (VBZ approaches) (NP (NP (JJ presume) (NN access)) (PP (TO to) (NP (NP (DT a) (NP' (JJ comprehensive) (NN body))) (PP (IN of) (NP (NN world) (NN knowledge))))))) (. .)))
+                                S                                      
+          ______________________|___                                    
+         |                          S'                                 
+         |                   _______|________________________________   
+         |                  VP                                       | 
+         |               ___|_______                                 |  
+         |              |          VP'                               | 
+         |              |    _______|______                          |  
+         |              |   |              VP                        | 
+         |              |   |    __________|_______                  |  
+         |              |   |   |                 S_VP               | 
+         |              |   |   |    ______________|____             |  
+         |              |   |   |   |                   VP           | 
+         |              |   |   |   |       ____________|___         |  
+         NP             |   |   |   |      |                NP       | 
+    _____|______        |   |   |   |      |             ___|___     |  
+  NNP          NNS     VBP  RB  VB  TO     VB           DT      NN   . 
+   |            |       |   |   |   |      |            |       |    |  
+Shallow     approaches  do n't try  to understand      the     text  . 
+
+(S (NP (NNP Shallow) (NNS approaches)) (S' (VP (VBP do) (VP' (RB n't) (VP (VB try) (S_VP (TO to) (VP (VB understand) (NP (DT the) (NN text))))))) (. .)))
+                        S                                                                        
+             ___________|_________                                                                
+            |                     S'                                                             
+            |            _________|__________________                                             
+            |           |                            S'                                          
+            |           |          __________________|_________________________________________   
+            |           |         S                                                            | 
+            |           |     ____|____                                                        |  
+            |           |    |         VP                                                      | 
+            |           |    |     ____|___                                                    |  
+            |           |    |    |        VP                                                  | 
+            |           |    |    |     ___|_________________________                          |  
+            |           |    |    |    |                            VP'                        | 
+            |           |    |    |    |              _______________|__________               |  
+            |           |    |    |    |             PP                        S_VP            | 
+            |           |    |    |    |    _________|_________             ____|____          |  
+            NP          |    |    |    |   |                   NP          |         VP        | 
+     _______|_____      |    |    |    |   |          _________|_____      |     ____|____     |  
+    JJ           NNS    :  NP_DT VBP  VBP  IN        JJ              NN    TO   VB      PP_IN  . 
+    |             |     |    |    |    |   |         |               |     |    |         |    |  
+Supervised     methods  :  These make use  of sense-annotated     corpora  to train      from  . 
+
+(S (NP (JJ Supervised) (NNS methods)) (S' (: :) (S' (S (NP_DT These) (VP (VBP make) (VP (VBP use) (VP' (PP (IN of) (NP (JJ sense-annotated) (NN corpora))) (S_VP (TO to) (VP (VB train) (PP_IN from))))))) (. .))))
+                               S                                                                                                                                        
+               ________________|_________________________                                                                                                                
+              |                                          S'                                                                                                             
+              |            ______________________________|_____________________________________________                                                                  
+              |           |                                                                            S'                                                               
+              |           |                               _____________________________________________|_________________________                                        
+              |           |                              |                                                                       S'                                     
+              |           |                              |                                                      _________________|____                                   
+              |           |                              |                                                     |                      S'                                
+              |           |                              |                                                     |                  ____|_______________________________   
+              |           |                              NP                                                    |                 VP                                   | 
+              |           |     _________________________|___________                                          |    _____________|____                                |  
+              |           |    |                                    NP'                                        |   |                 VP'                              | 
+              |           |    |                   __________________|______________________                   |   |       ___________|___                            |  
+              |           |    |                 ADJP                                       |                  |   |      |               PP                          | 
+              |           |    |       ___________|______                                   |                  |   |      |       ________|_______                    |  
+              |           |    |      |                 PRN                                NP'                 |   |      |      |                NP                  | 
+              |           |    |      |       ___________|_____                       ______|__________        |   |      |      |     ___________|_______            |  
+              NP          |    |      |      |                PRN'                  ADJP               |       |   |      |      |    |                  NP'          | 
+      ________|_____      |    |      |      |            _____|_____         _______|______           |       |   |      |      |    |            _______|_____      |  
+     JJ            NNS    :    DT  ADJP_JJ -LRB-      ADVP_RB      -RRB-     RB             JJ         NN      CC  VB  ADVP_RB   IN   JJ          JJ            NN    . 
+     |              |     |    |      |      |           |           |       |              |          |       |   |      |      |    |           |             |     |  
+Unsupervised     methods  :  These  eschew -LRB-       almost      -RRB- completely      external information and work directly from raw     unannotated     corpora  . 
+
+(S (NP (JJ Unsupervised) (NNS methods)) (S' (: :) (S' (NP (DT These) (NP' (ADJP (ADJP_JJ eschew) (PRN (-LRB- -LRB-) (PRN' (ADVP_RB almost) (-RRB- -RRB-)))) (NP' (ADJP (RB completely) (JJ external)) (NN information)))) (S' (CC and) (S' (VP (VB work) (VP' (ADVP_RB directly) (PP (IN from) (NP (JJ raw) (NP' (JJ unannotated) (NN corpora)))))) (. .))))))
+                   S                                                                            
+        ___________|____________                                                                 
+       |                        VP                                                              
+       |            ____________|__________________                                              
+       |           |                               S                                            
+       |           |      _________________________|____                                         
+       |           |     |                              S'                                      
+       |           |     |             _________________|_____________________________________   
+       |           |     |            VP                                                      | 
+       |           |     |       _____|____                                                   |  
+       |           |     |      |          PP                                                 | 
+       |           |     |      |      ____|____________                                      |  
+       |           |     |      |     |                 NP                                    | 
+       |           |     |      |     |         ________|________                             |  
+       |           |     |      |     |        |                 PP                           | 
+       |           |     |      |     |        |         ________|____                        |  
+       |           |     |      |     |        |        |             NP                      | 
+       |           |     |      |     |        |        |    _________|____                   |  
+       NP          |     |      |     |        NP       |   |             NP'                 | 
+   ____|_____      |     |      |     |     ___|___     |   |          ____|________          |  
+  DT        NNS   VBP ADVP_RB  VBN    IN   DT      NN   IN  NN        NN            NN        . 
+  |          |     |     |      |     |    |       |    |   |         |             |         |  
+These     methods are   also  known under the     name  of word     sense     discrimination  . 
+
+(S (NP (DT These) (NNS methods)) (VP (VBP are) (S (ADVP_RB also) (S' (VP (VBN known) (PP (IN under) (NP (NP (DT the) (NN name)) (PP (IN of) (NP (NN word) (NP' (NN sense) (NN discrimination))))))) (. .)))))
+                                                                    S                                                                     
+                                  __________________________________|________________________________                                      
+                                 S                                                                   S'                                   
+        _________________________|____                                             __________________|__________________________________   
+       |                              VP                                          VP                                                    | 
+       |                     _________|____                                   ____|__________________                                   |  
+       |                    |             S_VP                               |                       NP                                 | 
+       |                    |     _________|____                             |          _____________|___________                       |  
+       |                    |    |              VP                           |         |                        NP'                     | 
+       |                    |    |     _________|_____                       |         |              ___________|_____                 |  
+       NP                   |    |    |              VP'                     |         |             |                NP'               | 
+  _____|_____               |    |    |     __________|_____                 |         |             |        _________|______          |  
+ |          NP'             |    |    |    |               VP'               |         NP            |       |                NP        | 
+ |      _____|______        |    |    |    |           _____|_______         |     ____|____         |       |          ______|____     |  
+ CD    JJ          NNS     VBN   TO   VB   CC      ADVP_RB        VP_VB     VBP  NNP       NNP      NNS      CC        NN         NNS   . 
+ |     |            |       |    |    |    |          |             |        |    |         |        |       |         |           |    |  
+Two shallow     approaches used  to train and        then      disambiguate are Naïve     Bayes classifiers and     decision     trees  . 
+
+(S (S (NP (CD Two) (NP' (JJ shallow) (NNS approaches))) (VP (VBN used) (S_VP (TO to) (VP (VB train) (VP' (CC and) (VP' (ADVP_RB then) (VP_VB disambiguate))))))) (S' (VP (VBP are) (NP (NP (NNP Naïve) (NNP Bayes)) (NP' (NNS classifiers) (NP' (CC and) (NP (NN decision) (NNS trees)))))) (. .)))
+                                                                            S                                                                                    
+       _____________________________________________________________________|___________                                                                          
+      |                                                                                 S'                                                                       
+      |                   ______________________________________________________________|______                                                                   
+      |                  |                                                                     S'                                                                
+      |                  |                                  ___________________________________|___________________________                                       
+      |                  |                                 |                                                               S'                                    
+      |                  |                                 |                                          _____________________|___________________________________   
+      |                  |                                 NP                                        VP                                                        | 
+      |                  |                 ________________|_____                               _____|_____________________                                    |  
+      |                  |                |                      PP                            |                           VP                                  | 
+      |                  |                |            __________|_____                        |      _____________________|_______                            |  
+      |                  |                |           |               PP'                      |     |                            VP'                          | 
+      |                  |                |           |     ___________|____                   |     |              _______________|______                     |  
+      PP                 |                |           |    |                NP                 |     |             |                      PP                   | 
+  ____|_____             |                |           |    |      __________|_____             |     |             |                ______|_______             |  
+ |          NP           |                NP          |    |     |               NP'           |     |             NP              |              NP           | 
+ |     _____|_____       |        ________|_____      |    |     |           _____|_____       |     |       ______|_______        |       _______|_____       |  
+ IN   JJ          NN     ,       JJ            NNS    JJ   IN    NN         NN         NNS    VBP   VBN     JJ             NN      IN     JJ            NN     . 
+ |    |           |      |       |              |     |    |     |          |           |      |     |      |              |       |      |             |      |  
+ In recent     research  ,  kernel-based     methods such  as support     vector     machines have shown superior     performance  in supervised     learning  . 
+
+(S (PP (IN In) (NP (JJ recent) (NN research))) (S' (, ,) (S' (NP (NP (JJ kernel-based) (NNS methods)) (PP (JJ such) (PP' (IN as) (NP (NN support) (NP' (NN vector) (NNS machines)))))) (S' (VP (VBP have) (VP (VBN shown) (VP' (NP (JJ superior) (NN performance)) (PP (IN in) (NP (JJ supervised) (NN learning)))))) (. .)))))
+                S                                                                                                        
+     ___________|_________________________                                                                                
+    |                                     S'                                                                             
+    |        _____________________________|_____________________                                                          
+    |       |                                                   S'                                                       
+    |       |    _______________________________________________|______                                                   
+    |       |   |                                                      S'                                                
+    |       |   |                    __________________________________|___                                               
+    |       |   |                   |                                      S'                                            
+    |       |   |                   |                ______________________|_____________________                         
+    |       |   |                   |               |                                            S'                      
+    |       |   |                   |               |                             _______________|_____________________   
+    |       |   |                   |               |                            VP                                    | 
+    |       |   |                   |               |                   _________|_____                                |  
+    |       |   |                   |               |                  |               NP                              | 
+    |       |   |                   |               |                  |    ___________|_________                      |  
+    |       |   |                   |               NP                 |   |                    NP'                    | 
+    |       |   |                   |            ___|____              |   |      _______________|__________           |  
+    |       |   |                   NP          |       NP'            |   |     |                         NP'         | 
+    |       |   |          _________|_____      |    ____|______       |   |     |                __________|____      |  
+  NP_NNP    :   CC        JJ             NNS    DT NNP          NN    VBZ  DT    JJ              JJ              NN    . 
+    |       |   |         |               |     |   |           |      |   |     |               |               |     |  
+Dictionary  -  and knowledge-based     methods The Lesk     algorithm  is the seminal     dictionary-based     method  . 
+
+(S (NP_NNP Dictionary) (S' (: -) (S' (CC and) (S' (NP (JJ knowledge-based) (NNS methods)) (S' (NP (DT The) (NP' (NNP Lesk) (NN algorithm))) (S' (VP (VBZ is) (NP (DT the) (NP' (JJ seminal) (NP' (JJ dictionary-based) (NN method))))) (. .)))))))
+                            S                                                      
+        ____________________|________                                               
+       |                             VP                                            
+       |                     ________|________________                              
+       |                    |                        VP'                           
+       |                    |         ________________|________                     
+       |                    |        |                         PP                  
+       |                    |        |                 ________|___                 
+       |                    |        |                |            NP              
+       |                    |        |                |    ________|______          
+       NP                   |        NP               |   |              NP'       
+  _____|______              |    ____|____            |   |         ______|______   
+ |           NP'            |   |        NP'          |   |        NP            | 
+ |      ______|______       |   |     ____|_____      |   |     ___|______       |  
+ DT   NNP            NN    VBD  DT   JJ         NN    IN PDT   DT         NN     . 
+ |     |             |      |   |    |          |     |   |    |          |      |  
+The Yarowsky     algorithm was  an early     example  of such  an     algorithm  . 
+
+(S (NP (DT The) (NP' (NNP Yarowsky) (NN algorithm))) (VP (VBD was) (VP' (NP (DT an) (NP' (JJ early) (NN example))) (PP (IN of) (NP (PDT such) (NP' (NP (DT an) (NN algorithm)) (. .)))))))
+                                             S                                                              
+           __________________________________|______________________________                                 
+          S                                                                 |                               
+      ____|________                                                         |                                
+     |             VP                                                       |                               
+     |          ___|_________                                               |                                
+     |         |             VP                                             S'                              
+     |         |    _________|____                                 _________|__________                      
+     |         |   |             S_VP                             |                    S'                   
+     |         |   |     _________|____                           |              ______|__________________   
+     |         |   |    |              VP                         |             VP                        | 
+     |         |   |    |     _________|_____                     |     ________|______                   |  
+     |         |   |    |    |               NP                   |    |               NP                 | 
+     |         |   |    |    |     __________|_____               |    |     __________|_______           |  
+     NP        |   |    |    |    |               NP'             |    |    |                 NP'         | 
+  ___|____     |   |    |    |    |           _____|______        |    |    |           _______|____      |  
+ DT      NNS  VBP VBN   TO   VB   DT         JJ           NN      ,   VBG   DT         JJ           NN    . 
+ |        |    |   |    |    |    |          |            |       |    |    |          |            |     |  
+The     seeds are used  to train  an      initial     classifier  ,  using any     supervised     method  . 
+
+(S (S (NP (DT The) (NNS seeds)) (VP (VBP are) (VP (VBN used) (S_VP (TO to) (VP (VB train) (NP (DT an) (NP' (JJ initial) (NN classifier)))))))) (S' (, ,) (S' (VP (VBG using) (NP (DT any) (NP' (JJ supervised) (NN method)))) (. .))))
+                                                                                        S                                                                                             
+                                            ____________________________________________|___________________________________________                                                   
+                                           |                                                                                        S'                                                
+                                           |                                                              __________________________|_______________________________________________   
+                                           |                                                             VP                                                                         | 
+                                           |                                             ________________|__________________________                                                |  
+                                           |                                            |                                           VP                                              | 
+                                           |                                            |      _____________________________________|__________                                     |  
+                                           S                                            |     |                                               VP'                                   | 
+              _____________________________|___________                                 |     |                    ____________________________|_______                             |  
+             |                                         VP                               |     |                   |                                   SBAR                          | 
+             |                         ________________|_______                         |     |                   |                  __________________|____                        |  
+             |                        |                        NP                       |     |                   |                 |                      S_VP                     | 
+             |                        |          ______________|_____                   |     |                   |                 |           ____________|_____                  |  
+             NP                       |         |                    PP                 |     |                   |                 |          |                  NP                | 
+   __________|_________               |         |               _____|______            |     |                   |                 |          |        __________|_____            |  
+  |                   NP'             |         NP             |            NP          |     |                   NP                |          |       |               NP'          | 
+  |           _________|______        |     ____|______        |      ______|_____      |     |           ________|_______          |          |       |           _____|_____      |  
+  JJ         JJ              NNS     VBP   JJ         NNS      IN    JJ           NN    TO    VB         JJ               NN     WHNP_WDT     VBZ      DT         JJ          NN    . 
+  |          |                |       |    |           |       |     |            |     |     |          |                |         |          |       |          |           |     |  
+Other semi-supervised     techniques use large     quantities  of untagged     corpora  to provide co-occurrence     information   that   supplements the       tagged     corpora  . 
+
+(S (S (NP (JJ Other) (NP' (JJ semi-supervised) (NNS techniques))) (VP (VBP use) (NP (NP (JJ large) (NNS quantities)) (PP (IN of) (NP (JJ untagged) (NN corpora)))))) (S' (VP (TO to) (VP (VB provide) (VP' (NP (JJ co-occurrence) (NN information)) (SBAR (WHNP_WDT that) (S_VP (VBZ supplements) (NP (DT the) (NP' (JJ tagged) (NN corpora)))))))) (. .)))
+                                                          S                                                                        
+                       ___________________________________|__________________                                                       
+                      |                                                      S'                                                    
+                      |                           ___________________________|___________________________________________________   
+                      |                          VP                                                                              | 
+                      |                       ___|____                                                                           |  
+                      |                      |        VP                                                                         | 
+                      |                      |    ____|______________                                                            |  
+                      |                      |   |                   PP                                                          | 
+                      |                      |   |     ______________|______________                                             |  
+                      |                      |   |    |                             NP                                           | 
+                      |                      |   |    |        _____________________|____________                                |  
+                      |                      |   |    |       |                                  PP                              | 
+                      |                      |   |    |       |               ___________________|_____                          |  
+                      S                      |   |    |       |              |                         NP                        | 
+        ______________|____                  |   |    |       |              |               __________|______                   |  
+       |                   VP                |   |    |       |              |              |                 PP                 | 
+       |               ____|___              |   |    |       |              |              |           ______|______            |  
+       NP             |        NP            |   |    |       NP             |              NP         |             NP          | 
+   ____|______        |     ___|______       |   |    |    ___|______        |       _______|____      |       ______|_____      |  
+  DT         NNS     VBP   DT         NN     TO  VB   IN  DT         NN      IN     JJ          NNS    TO     JJ          NNS    . 
+  |           |       |    |          |      |   |    |   |          |       |      |            |     |      |            |     |  
+These     techniques have the     potential  to help  in the     adaptation  of supervised     models  to different     domains  . 
+
+(S (S (NP (DT These) (NNS techniques)) (VP (VBP have) (NP (DT the) (NN potential)))) (S' (VP (TO to) (VP (VB help) (PP (IN in) (NP (NP (DT the) (NN adaptation)) (PP (IN of) (NP (NP (JJ supervised) (NNS models)) (PP (TO to) (NP (JJ different) (NNS domains))))))))) (. .)))
+                                                                  S                                                                                 
+                  ________________________________________________|______________________                                                            
+                 |                                                                       S'                                                         
+                 |                        _______________________________________________|________________________________________________________   
+                 |                       VP                                                                                                       | 
+                 |                   ____|____                                                                                                    |  
+                 |                  |         VP                                                                                                  | 
+                 |                  |     ____|____                                                                                               |  
+                 |                  |    |         VP                                                                                             | 
+                 |                  |    |     ____|______________                                                                                |  
+                 |                  |    |    |                  S_VP                                                                             | 
+                 |                  |    |    |     ______________|_______________________________                                                |  
+                 |                  |    |    |    |                                              VP                                              | 
+                 |                  |    |    |    |     _________________________________________|___                                            |  
+                 |                  |    |    |    |    |                                            VP'                                          | 
+                 |                  |    |    |    |    |                    _________________________|_______                                    |  
+                 |                  |    |    |    |    |                   |                                VP'                                  | 
+                 |                  |    |    |    |    |                   |                      ___________|____                               |  
+                 |                  |    |    |    |    |                   |                     |               VP'                             | 
+                 |                  |    |    |    |    |                   |                     |        ________|_________                     |  
+                 NP                 |    |    |    |    |                   NP                    |       |                  PP                   | 
+      ___________|______            |    |    |    |    |          _________|____                 |       |         _________|_________           |  
+     |                 NP'          |    |    |    |    |         |             NP'               |       NP       |                   NP         | 
+     |            ______|_____      |    |    |    |    |         |          ____|_______         |    ___|___     |          _________|____      |  
+     JJ          JJ           NN   VBP  VBN  VBN   TO   VB        JJ        NN          NNS       ,   DT      NN   IN        JJ             NN    . 
+     |           |            |     |    |    |    |    |         |         |            |        |   |       |    |         |              |     |  
+Word-aligned bilingual     corpora have been used  to infer cross-lingual sense     distinctions  ,   a      kind  of semi-supervised     system  . 
+
+(S (NP (JJ Word-aligned) (NP' (JJ bilingual) (NN corpora))) (S' (VP (VBP have) (VP (VBN been) (VP (VBN used) (S_VP (TO to) (VP (VB infer) (VP' (NP (JJ cross-lingual) (NP' (NN sense) (NNS distinctions))) (VP' (, ,) (VP' (NP (DT a) (NN kind)) (PP (IN of) (NP (JJ semi-supervised) (NN system))))))))))) (. .)))
+                                                                            S                                                                              
+                                        ____________________________________|_____________________________________________                                  
+                                       S                                                                                  |                                
+               ________________________|_______                                                                           |                                 
+              |                                VP                                                                         S'                               
+              |            ____________________|_________                                              ___________________|______________________________   
+              |           |                              NP                                           VP                                                 | 
+              |           |                 _____________|__________________                       ___|___________________                               |  
+              |           |                NP                               |                     |                       NP                             | 
+              |           |       _________|___                             |                     |          _____________|__________                    |  
+              |           |      |            NP'                          NP'                    |         NP                       PP                  | 
+              |           |      |      _______|____              __________|________             |    _____|______               ___|___                |  
+              NP          |      |     |           NP'           |                  NP'           |   |           NP'            |       NP              | 
+      ________|_____      |      |     |        ____|____        |           ________|_____       |   |      ______|______       |    ___|_______        |  
+     JJ            NNS   VBZ   NP_NN   :       JJ        NN      NN         JJ             NN    VBZ  DT   JJS            NN     IN NNP         NNS      . 
+     |              |     |      |     |       |         |       |          |              |      |   |     |             |      |   |           |       |  
+Unsupervised     methods Main article  :      Word     sense induction Unsupervised     learning  is the greatest     challenge for WSD     researchers  . 
+
+(S (S (NP (JJ Unsupervised) (NNS methods)) (VP (VBZ Main) (NP (NP (NP_NN article) (NP' (: :) (NP' (JJ Word) (NN sense)))) (NP' (NN induction) (NP' (JJ Unsupervised) (NN learning)))))) (S' (VP (VBZ is) (NP (NP (DT the) (NP' (JJS greatest) (NN challenge))) (PP (IN for) (NP (NNP WSD) (NNS researchers))))) (. .)))
+             S                                                                                                           
+    _________|___________________                                                                                         
+   |                             S'                                                                                      
+   |      _______________________|____________________                                                                    
+   |     |                                            S'                                                                 
+   |     |                        ____________________|___________________                                                
+   |     |                       |                                        S'                                             
+   |     |                       |                     ___________________|____________________________________________   
+   |     |                       |                    VP                                                               | 
+   |     |                       |                 ___|______                                                          |  
+   |     |                       |                |          VP                                                        | 
+   |     |                       |                |    ______|____________                                             |  
+   |     |                       |                |   |                   VP                                           | 
+   |     |                       |                |   |       ____________|_____                                       |  
+   |     |                       |                |   |      |                  PP                                     | 
+   |     |                       |                |   |      |        __________|_____                                 |  
+   |     |                       NP               |   |      |       |                NP                               | 
+   |     |        _______________|___             |   |      |       |     ___________|_____                           |  
+   |     |       |                   PP           |   |      |       |    |                NP'                         | 
+   |     |       |                ___|___         |   |      |       |    |      ___________|_____                     |  
+   |     |       NP              |       NP       |   |      |       |    |     |                NP'                   | 
+   |     |    ___|_______        |    ___|___     |   |      |       |    |     |            _____|_________           |  
+ADVP_RB  ,   JJ         NNS      IN  DT      NN   MD  VB    VBN      IN   DT   JJS          CD             NNS         . 
+   |     |   |           |       |   |       |    |   |      |       |    |     |           |               |          |  
+  Then   ,  new     occurrences  of the     word can  be classified into the closest     induced     clusters\/senses  . 
+
+(S (ADVP_RB Then) (S' (, ,) (S' (NP (NP (JJ new) (NNS occurrences)) (PP (IN of) (NP (DT the) (NN word)))) (S' (VP (MD can) (VP (VB be) (VP (VBN classified) (PP (IN into) (NP (DT the) (NP' (JJS closest) (NP' (CD induced) (NNS clusters\/senses)))))))) (. .)))))
+                         S                                                                                           
+       __________________|__________________________________                                                          
+      |                                                     S'                                                       
+      |         ____________________________________________|____                                                     
+      |        |                                                 S'                                                  
+      |        |               __________________________________|___________                                         
+      |        |              |                                              S'                                      
+      |        |              |                              ________________|_____________________________________   
+      |        |              |                             VP                                                     | 
+      |        |              |                          ___|____                                                  |  
+      |        |              |                         |        VP                                                | 
+      |        |              |                         |    ____|___________                                      |  
+      |        |              |                         |   |                VP                                    | 
+      |        |              |                         |   |     ___________|_______                              |  
+      |        |              |                         |   |    |                  VP'                            | 
+      |        |              |                         |   |    |      _____________|_____                        |  
+      |        |              NP                        |   |    |     |                   VP                      | 
+      |        |    __________|______                   |   |    |     |      _____________|___                    |  
+      |        |   |                NP'                 |   |    |     |     |                 PP                  | 
+      |        |   |      ___________|______            |   |    |     |     |        _________|___                |  
+      |        |   |     |                 NP'          |   |    |     |     |       |             NP              | 
+      |        |   |     |            ______|_____      |   |    |     |     |       |          ___|_______        |  
+   ADVP_RB     ,   NN    NN          NN          NNS    MD  VB  VBN    CC   VBN      IN        DT          NN      . 
+      |        |   |     |           |            |     |   |    |     |     |       |         |           |       |  
+Alternatively  ,  word sense     induction     methods can  be tested and compared within      an     application  . 
+
+(S (ADVP_RB Alternatively) (S' (, ,) (S' (NP (NN word) (NP' (NN sense) (NP' (NN induction) (NNS methods)))) (S' (VP (MD can) (VP (VB be) (VP (VBN tested) (VP' (CC and) (VP (VBN compared) (PP (IN within) (NP (DT an) (NN application)))))))) (. .)))))
+                                                                                              S                                                                     
+                        ______________________________________________________________________|__________                                                            
+                       |                                                                                 S'                                                         
+                       |                                  _______________________________________________|___________________                                        
+                       |                                 |                                                                   S'                                     
+                       |                                 |                                     ______________________________|____________________________________   
+                       |                                 |                                    VP                                                                  | 
+                       |                                 |                               _____|__________                                                         |  
+                       |                                 |                              |               VP'                                                       | 
+                       |                                 |                              |      __________|___________________                                     |  
+                       |                                 |                              |     |                             VP'                                   | 
+                       |                                 |                              |     |           ___________________|___________                         |  
+                       |                                 |                              |     |          |                              S_VP                      | 
+                       |                                 |                              |     |          |                    ___________|____                    |  
+                       |                                 NP                             |     |          |                   |                VP                  | 
+                       |                    _____________|_______                       |     |          |                   |      __________|___                |  
+                       NP                  |                    NP'                     |     |          NP                  |     |              NP              | 
+        _______________|_______            |       ______________|_______               |     |      ____|____               |     |      ________|___            |  
+       NP                     NP'          |      |                     NP'             |     |     |        NP'             |     |     |           NP'          | 
+   ____|_______             ___|_____      |      |               _______|______        |     |     |     ____|______        |     |     |         ___|_____      |  
+  JJ          NNS          CC      NP_NN   DT     NN             NN             NN     VBZ ADVP_RB  DT   JJ          NN      TO   VBG    DT      NNP        NN    . 
+  |            |           |         |     |      |              |              |       |     |     |    |           |       |     |     |        |         |     |  
+Local     impediments     and     summary The knowledge     acquisition     bottleneck  is perhaps the major     impediment  to solving the      WSD     problem  . 
+
+(S (NP (NP (JJ Local) (NNS impediments)) (NP' (CC and) (NP_NN summary))) (S' (NP (DT The) (NP' (NN knowledge) (NP' (NN acquisition) (NN bottleneck)))) (S' (VP (VBZ is) (VP' (ADVP_RB perhaps) (VP' (NP (DT the) (NP' (JJ major) (NN impediment))) (S_VP (TO to) (VP (VBG solving) (NP (DT the) (NP' (NNP WSD) (NN problem)))))))) (. .))))
+                                                                             S                                                                               
+               ______________________________________________________________|______                                                                          
+              |                                                                     S'                                                                       
+              |                        _____________________________________________|______________________________________________________________________   
+              |                       VP                                                                                                                   | 
+              |            ___________|__________________________                                                                                          |  
+              |           |                                     VP'                                                                                        | 
+              |           |                    __________________|___________                                                                              |  
+              |           |                   |                             VP'                                                                            | 
+              |           |                   |                         _____|______                                                                       |  
+              |           |                   |                        |           SBAR                                                                    | 
+              |           |                   |                        |      ______|______                                                                |  
+              |           |                   |                        |     |            S_VP                                                             | 
+              |           |                   |                        |     |       ______|________                                                       |  
+              |           |                   |                        |     |      |              VP'                                                     | 
+              |           |                   |                        |     |      |       ________|_______________                                       |  
+              |           |                   |                        |     |      |      |                        VP                                     | 
+              |           |                   |                        |     |      |      |         _______________|________                              |  
+              |           |                   PP                       |     |      |      |        |                        PP                            | 
+              |           |     ______________|____                    |     |      |      |        |        ________________|___                          |  
+              |           |    |                   NP                  |     |      |      |        |       |                    NP                        | 
+              |           |    |       ____________|___                |     |      |      |        |       |        ____________|_____                    |  
+              |           |    |      |                PP              |     |      |      |        |       |       |                 NP'                  | 
+              |           |    |      |        ________|____           |     |      |      |        |       |       |         _________|_____              |  
+              NP          |    |      |       |             NP         |     |      |      |        |       |       |        |               NP            | 
+      ________|_____      |    |      |       |         ____|____      |     |      |      |        |       |       |        |          _____|______       |  
+     JJ            NNS   VBP   IN   NP_NN     IN       NN       NNS    ,  WHNP_WDT VBZ  ADVP_RB    VBN      IN      JJ       CC        JJ          NNS     . 
+     |              |     |    |      |       |        |         |     |     |      |      |        |       |       |        |         |            |      |  
+Unsupervised     methods rely  on knowledge about     word     senses  ,   which    is   barely formulated  in dictionaries and     lexical     databases  . 
+
+(S (NP (JJ Unsupervised) (NNS methods)) (S' (VP (VBP rely) (VP' (PP (IN on) (NP (NP_NN knowledge) (PP (IN about) (NP (NN word) (NNS senses))))) (VP' (, ,) (SBAR (WHNP_WDT which) (S_VP (VBZ is) (VP' (ADVP_RB barely) (VP (VBN formulated) (PP (IN in) (NP (JJ dictionaries) (NP' (CC and) (NP (JJ lexical) (NNS databases)))))))))))) (. .)))
+                                                       S                                                     
+            ___________________________________________|______                                                
+           |                                                  S'                                             
+           |                     _____________________________|____________________________________________   
+           |                    VP                                                                         | 
+           |              ______|_______                                                                   |  
+           |             |              NP                                                                 | 
+           |             |       _______|______                                                            |  
+           |             |      |             SBAR                                                         | 
+           |             |      |        ______|_______                                                    |  
+           |             |      |       |             S_VP                                                 | 
+           |             |      |       |       _______|_____________                                      |  
+           |             |      |       |      |                    ADJP                                   | 
+           |             |      |       |      |        _____________|___________                          |  
+           |             |      |       |      |       |                         PP                        | 
+           |             |      |       |      |       |       __________________|_____                    |  
+           |             |      |       |      |       |      |                        NP                  | 
+           |             |      |       |      |       |      |              __________|________           |  
+           NP            |      |       |      |       |      |             NP                  PP         | 
+     ______|_____        |      |       |      |       |      |       ______|____           ____|____      |  
+    JJ          NNS      VB   NP_NNS WHNP_WDT VBP      JJ     TO     JJ         NNS        IN      NP_NNS  . 
+    |            |       |      |       |      |       |      |      |           |         |         |     |  
+Knowledge     sources provide  data   which   are  essential  to associate     senses     with     words   . 
+
+(S (NP (JJ Knowledge) (NNS sources)) (S' (VP (VB provide) (NP (NP_NNS data) (SBAR (WHNP_WDT which) (S_VP (VBP are) (ADJP (JJ essential) (PP (TO to) (NP (NP (JJ associate) (NNS senses)) (PP (IN with) (NP_NNS words))))))))) (. .)))
+                                                                S                                                                       
+       _________________________________________________________|__________________________                                              
+      |                                                                                    S'                                           
+      |                                                                       _____________|__________________________________________   
+     SBAR                                                                    VP                                                       | 
+  ____|_____                                                     ____________|_____________                                           |  
+ |        SBAR'                                                 |                          VP                                         | 
+ |     _____|____                                               |       ___________________|_____                                     |  
+ |    |         S_VP                                            |      |                        VP'                                   | 
+ |    |      ____|____________                                  |      |           ______________|______                              |  
+ |    |     |                 VP                                |      |          |                    S_VP                           | 
+ |    |     |     ____________|______                           |      |          |         ____________|____                         |  
+ |    |     |    |                   NP                         |      |          |        |                 VP                       | 
+ |    |     |    |         __________|______                    |      |          |        |      ___________|___                     |  
+ |    |     |    |        |                NP'                  |      |          |        |     |               NP                   | 
+ |    |     |    |        |           ______|___                |      |          |        |     |       ________|____                |  
+ |    |     |    |        NP         |         NP'              |      |          NP       |     |      |            NP'              | 
+ |    |     |    |     ___|___       |       ___|______         |      |      ____|___     |     |      |         ____|_______        |  
+ IN   NN    TO   VB   CD     POS     NN     ,        NP_NNS     MD     VB   PRP$      NN   TO    VB    PDT       NN          NNS      . 
+ |    |     |    |    |       |      |      |          |        |      |     |        |    |     |      |        |            |       |  
+ In order   to  test one      's algorithm  ,      developers should spend their     time  to annotate all      word     occurrences  . 
+
+(S (SBAR (IN In) (SBAR' (NN order) (S_VP (TO to) (VP (VB test) (NP (NP (CD one) (POS 's)) (NP' (NN algorithm) (NP' (, ,) (NP_NNS developers)))))))) (S' (VP (MD should) (VP (VB spend) (VP' (NP (PRP$ their) (NN time)) (S_VP (TO to) (VP (VB annotate) (NP (PDT all) (NP' (NN word) (NNS occurrences)))))))) (. .)))
+                                                        S                                                                     
+  ______________________________________________________|___                                                                   
+ |                                                          S'                                                                
+ |                __________________________________________|_______________________________________________________________   
+ |               VP                                                                                                         | 
+ |       ________|_______                                                                                                   |  
+ |      |               VP'                                                                                                 | 
+ |      |         _______|_____                                                                                             |  
+ |      |        |            VP'                                                                                           | 
+ |      |        |        _____|___                                                                                         |  
+ |      |        |       |        SBAR                                                                                      | 
+ |      |        |       |      ___|______________                                                                          |  
+ |      |        |       |     |                  S                                                                         | 
+ |      |        |       |     |         _________|_________                                                                |  
+ |      |        |       |     |        |                   VP                                                              | 
+ |      |        |       |     |        |                ___|_____                                                          |  
+ |      |        |       |     |        |               |        VP'                                                        | 
+ |      |        |       |     |        |               |    _____|______                                                   |  
+ |      |        |       |     |        |               |   |           VP'                                                 | 
+ |      |        |       |     |        |               |   |      ______|_________                                         |  
+ |      |        |       |     |        |               |   |     |               SBAR                                      | 
+ |      |        |       |     |        |               |   |     |       _________|_______                                 |  
+ |      |        |       |     |        |               |   |     |      |                 S                                | 
+ |      |        |       |     |        |               |   |     |      |     ____________|______                          |  
+ |      |        |       |     |        |               |   |     |      |    |                   VP                        | 
+ |      |        |       |     |        |               |   |     |      |    |     ______________|____                     |  
+ |      |        |       |     |        NP              |   |     |      |    |    |                   NP                   | 
+ |      |        |       |     |    ____|____           |   |     |      |    |    |        ___________|____                |  
+ |      |        |       |     |   |        NP'         |   |     |      |    |    |       |               NP'              | 
+ |      |        |       |     |   |     ____|____      |   |     |      |    |    |       |            ____|_______        |  
+ CC     VB     NP_NNS ADVP_RB  IN  DT   JJ        NN   VBZ  RB ADJP_JJ   IN NP_EX VBZ      JJ          NN          NNS      . 
+ |      |        |       |     |   |    |         |     |   |     |      |    |    |       |           |            |       |  
+And comparing methods   even   on the  same     corpus  is not eligible  if there  is  different     sense     inventories  . 
+
+(S (CC And) (S' (VP (VB comparing) (VP' (NP_NNS methods) (VP' (ADVP_RB even) (SBAR (IN on) (S (NP (DT the) (NP' (JJ same) (NN corpus))) (VP (VBZ is) (VP' (RB not) (VP' (ADJP_JJ eligible) (SBAR (IN if) (S (NP_EX there) (VP (VBZ is) (NP (JJ different) (NP' (NN sense) (NNS inventories)))))))))))))) (. .)))
+                                                                  S                                                                     
+       ___________________________________________________________|____________________________________                                  
+     SBAR                                                                                              |                                
+  ____|_____                                                                                           |                                 
+ |        SBAR'                                                                                        |                                
+ |     _____|_____                                                                                     |                                 
+ |    |          S_VP                                                                                  S'                               
+ |    |      _____|_______________                                         ____________________________|______                           
+ |    |     |                     VP                                      |                                   S'                        
+ |    |     |      _______________|_____________                          |              _____________________|_________                 
+ |    |     |     |                             NP                        |             |                               S'              
+ |    |     |     |                _____________|__________               |             |                           ____|_____________   
+ |    |     |     |               NP                       |              |             NP                         VP                 | 
+ |    |     |     |       ________|_______                 |              |     ________|_______               ____|____              |  
+ |    |     |     |      |               NP'              NP'             |    |               NP'            |         VP            | 
+ |    |     |     |      |         _______|_____        ___|______        |    |         _______|______       |     ____|______       |  
+ IN   NN    TO    VB     JJ       NN           NNS     CC        NNS      ,    JJ       NN            NNS    VBP  VBN        VP_VBN   . 
+ |    |     |     |      |        |             |      |          |       |    |        |              |      |    |           |      |  
+ In order   to  define common evaluation     datasets and     procedures  ,  public evaluation     campaigns have been     organized  . 
+
+(S (SBAR (IN In) (SBAR' (NN order) (S_VP (TO to) (VP (VB define) (NP (NP (JJ common) (NP' (NN evaluation) (NNS datasets))) (NP' (CC and) (NNS procedures))))))) (S' (, ,) (S' (NP (JJ public) (NP' (NN evaluation) (NNS campaigns))) (S' (VP (VBP have) (VP (VBN been) (VP_VBN organized))) (. .)))))
+                   S                             
+       ____________|___________                   
+      |                        S'                
+      |                    ____|_______________   
+      |                   VP                   | 
+      |             ______|____                |  
+      NP           |           NP              | 
+  ____|____        |       ____|_______        |  
+NNP       NNP     VBZ     NN          NNS      . 
+ |         |       |      |            |       |  
+Task     Design Choices Sense     Inventories  . 
+
+(S (NP (NNP Task) (NNP Design)) (S' (VP (VBZ Choices) (NP (NN Sense) (NNS Inventories))) (. .)))
+                                            S                                                    
+              ______________________________|___________________________                          
+             PP                                                         S'                       
+   __________|____                                      ________________|________________         
+  |               NP                                   NP                                |       
+  |      _________|_____                     __________|____                             |        
+  |     |              NP'                  |              NP'                           S'      
+  |     |     __________|______             |     __________|____                   _____|_____   
+  |     |    |                NP'           |    |              NP'                VP          | 
+  |     |    |           ______|_____       |    |           ____|______        ___|_____      |  
+  IN    DT   JJ        NNP           NN     DT   JJ         NN          NN    VBD      VP_VBN  . 
+  |     |    |          |            |      |    |          |           |      |         |     |  
+During the first     Senseval     workshop the HECTOR     sense     inventory was     adopted  . 
+
+(S (PP (IN During) (NP (DT the) (NP' (JJ first) (NP' (NNP Senseval) (NN workshop))))) (S' (NP (DT the) (NP' (JJ HECTOR) (NP' (NN sense) (NN inventory)))) (S' (VP (VBD was) (VP_VBN adopted)) (. .))))
+             S                        
+      _______|___________              
+     |                   S'           
+     |        ___________|____         
+     |       |                S'      
+     |       |            ____|_____   
+     NP      |           VP         | 
+  ___|___    |      _____|____      |  
+ DT      NN  IN   VBG       NP_NNS  . 
+ |       |   |     |          |     |  
+ A      set  of testing     words   . 
+
+(S (NP (DT A) (NN set)) (S' (IN of) (S' (VP (VBG testing) (NP_NNS words)) (. .))))
+                                                S                                                             
+     ___________________________________________|________                                                      
+    |                                                    S'                                                   
+    |            ________________________________________|_____                                                
+    |           |                                              S'                                             
+    |           |                ______________________________|____________________________________________   
+    |           |               VP                                                                          | 
+    |           |            ___|___________                                                                |  
+    |           |           |               VP                                                              | 
+    |           |           |    ___________|__________________                                             |  
+    |           |           |   |                              VP                                           | 
+    |           |           |   |      ________________________|____                                        |  
+    |           |           |   |     |                            VP'                                      | 
+    |           |           |   |     |          ___________________|____________________________           |  
+    |           |           |   |     |         PP                                               |          | 
+    |           |           |   |     |      ___|______________                                  |          |  
+    |           |           |   |     |     |                  NP                                |          | 
+    |           |           |   |     |     |        __________|__________                       |          |  
+    |           |           |   |     |     |       |                     PP                     |          | 
+    |           |           |   |     |     |       |           __________|___                   |          |  
+    |           |           |   |     |     |       |          |              NP                 |          | 
+    |           |           |   |     |     |       |          |     _________|___               |          |  
+    |           PP          |   |     |     |       NP         |    |             PP            S_VP        | 
+    |        ___|_____      |   |     |     |    ___|____      |    |          ___|____       ___|_____     |  
+  NP_NNP    IN      NP_NNS  MD  VB   VBN    IN  CD      NNS    IN NP_NN       IN     NP_NNS  TO      VP_VB  . 
+    |       |         |     |   |     |     |   |        |     |    |         |        |     |         |    |  
+Comparison  of     methods can  be divided  in  2      groups  by amount      of     words   to       test  . 
+
+(S (NP_NNP Comparison) (S' (PP (IN of) (NP_NNS methods)) (S' (VP (MD can) (VP (VB be) (VP (VBN divided) (VP' (PP (IN in) (NP (NP (CD 2) (NNS groups)) (PP (IN by) (NP (NP_NN amount) (PP (IN of) (NP_NNS words)))))) (S_VP (TO to) (VP_VB test)))))) (. .))))
+                            S                                                                                   
+     _______________________|_____________________________                                                       
+    |                                                     S'                                                    
+    |         ____________________________________________|_______                                               
+    |        |                                                    S'                                            
+    |        |                     _______________________________|_____                                         
+    |        |                    |                                     S'                                      
+    |        |                    |                                _____|______________                          
+    |        |                    S                               |                    S'                       
+    |        |          __________|________                       |      ______________|_____                    
+    |        |         |                   VP                     |     |                    S'                 
+    |        |         |           ________|___                   |     |          __________|_________          
+    |        |         |          |            VP                 |     |         |                    S'       
+    |        |         |          |    ________|___               |     |         |               _____|______   
+    |        |         NP         |   |            PP             |     |         NP             VP           | 
+    |        |      ___|____      |   |         ___|______        |     |      ___|____       ___|_____       |  
+ ADVP_RB  ADVP_RB  DT       NN   VBD VBN       IN       NP_NN     CC ADVP_RB  DT       JJ   VBD      VP_VBN   . 
+    |        |     |        |     |   |        |          |       |     |     |        |     |         |      |  
+Initially   only  the     latter was used      in     evaluation but  later  the     former was     included  . 
+
+(S (ADVP_RB Initially) (S' (ADVP_RB only) (S' (S (NP (DT the) (NN latter)) (VP (VBD was) (VP (VBN used) (PP (IN in) (NP_NN evaluation))))) (S' (CC but) (S' (ADVP_RB later) (S' (NP (DT the) (JJ former)) (S' (VP (VBD was) (VP_VBN included)) (. .))))))))
+                       S                                                                                               
+           ____________|___________                                                                                     
+          |                        VP                                                                                  
+          |                     ___|____                                                                                
+          |                    |       S_VP                                                                            
+          |                    |    ____|_____________                                                                  
+          |                    |   |                  VP                                                               
+          |                    |   |     _____________|___________________________                                      
+          |                    |   |    |                                         NP                                   
+          |                    |   |    |        _________________________________|_____                                
+          |                    |   |    |       |                                      SBAR                            
+          |                    |   |    |       |          _____________________________|____                           
+          |                    |   |    |       |         |                                  S                         
+          |                    |   |    |       |         |                  ________________|_______                   
+          |                    |   |    |       |         |                 |                        S'                
+          |                    |   |    |       |         |                 |                     ___|_______________   
+          |                    |   |    |       |         |                 |                    VP                  | 
+          |                    |   |    |       |         |                 |            ________|___                |  
+          NP                   |   |    |       |         |                 |           |           S_VP             | 
+    ______|_____               |   |    |       |         |                 |           |     _______|____           |  
+   |           NP'             |   |    |       |        WHPP               NP          |    |            VP         | 
+   |       _____|______        |   |    |       |      ___|______        ___|_____      |    |        ____|____      |  
+   JJ     NN          NNS     VBD  TO   VB    NP_NNS  IN      WHNP_WDT  DT       NNS   VBD   TO      VB      VP_VBN  . 
+   |      |            |       |   |    |       |     |          |      |         |     |    |       |         |     |  
+Lexical sample     organizers had  to choose samples  on       which   the     systems were  to      be      tested  . 
+
+(S (NP (JJ Lexical) (NP' (NN sample) (NNS organizers))) (VP (VBD had) (S_VP (TO to) (VP (VB choose) (NP (NP_NNS samples) (SBAR (WHPP (IN on) (WHNP_WDT which)) (S (NP (DT the) (NNS systems)) (S' (VP (VBD were) (S_VP (TO to) (VP (VB be) (VP_VBN tested)))) (. .)))))))))
+    S    
+    |     
+Baselines
+
+(S Baselines)
+                                                             S                                                                
+         ____________________________________________________|_____                                                            
+        |                                                          S'                                                         
+        |                     _____________________________________|__________                                                 
+        |                    |                                                S'                                              
+        |                    |                    ____________________________|____________________________                    
+        |                    |                   NP                                                        S'                 
+        |                    |              _____|_____________________                                ____|________________   
+        |                    |            ADJP                         |                              VP                    | 
+        |                    |     ________|_____                      |                ______________|____                 |  
+        PP                   |    |            ADJP'                   |               |                 SBAR_S             | 
+  ______|_______             |    |     _________|_____                |               |        ___________|_____           |  
+ |              NP           |    |    |             ADJP'            NP'              |       |                 VP         | 
+ |       _______|_____       |    |    |          _____|_____       ___|______         |       |            _____|____      |  
+ IN     NN           NNS     ,   VBN   ,         CC          JJ    ,        NP_NNS    VBD    NP_NNS       VBP       VP_VBN  . 
+ |      |             |      |    |    |         |           |     |          |        |       |           |          |     |  
+For comparison     purposes  ,  known  ,        yet        simple  ,      algorithms named baselines      are        used   . 
+
+(S (PP (IN For) (NP (NN comparison) (NNS purposes))) (S' (, ,) (S' (NP (ADJP (VBN known) (ADJP' (, ,) (ADJP' (CC yet) (JJ simple)))) (NP' (, ,) (NP_NNS algorithms))) (S' (VP (VBD named) (SBAR_S (NP_NNS baselines) (VP (VBP are) (VP_VBN used)))) (. .)))))
+                               S                                                                          
+   ____________________________|__________________                                                         
+  |                                               S'                                                      
+  |                _______________________________|_____________________________________________________   
+  |               VP                                                                                    | 
+  |       ________|____________                                                                         |  
+  |      |                     NP                                                                       | 
+  |      |                _____|__________                                                              |  
+  |      |               |                PP                                                            | 
+  |      |               |             ___|_______                                                      |  
+  |      |               |            |           NP                                                    | 
+  |      |               |            |    _______|______________                                       |  
+  |      |               |            |   |                     NP'                                     | 
+  |      |               |            |   |                   ___|________________________              |  
+  |      |               |            |   |                 UCP                           |             | 
+  |      |               |            |   |        __________|___                         |             |  
+  |      |               |            |   |       |             UCP'                      |             | 
+  |      |               |            |   |       |       _______|____                    |             |  
+  |      |               NP           |   |       |      |           ADJP                NP'            | 
+  |      |         ______|_____       |   |       |      |        ____|______         ____|______       |  
+NP_DT   VBP       JJ          NNS     IN NNP    NP_NN    CC     RBS          JJ      NN          NN     . 
+  |      |        |            |      |   |       |      |       |           |       |           |      |  
+These include different     variants  of Lesk algorithm  or     most      frequent sense     algorithm  . 
+
+(S (NP_DT These) (S' (VP (VBP include) (NP (NP (JJ different) (NNS variants)) (PP (IN of) (NP (NNP Lesk) (NP' (UCP (NP_NN algorithm) (UCP' (CC or) (ADJP (RBS most) (JJ frequent)))) (NP' (NN sense) (NN algorithm))))))) (. .)))
+  S  
+  |   
+Sense
+
+(S Sense)
+                             S                                       
+    _________________________|_______                                 
+   |                                 S'                              
+   |                          _______|_____________________________   
+   |                         VP                                    | 
+   |      ___________________|_______                              |  
+   |     |                           NP                            | 
+   |     |             ______________|__________                   |  
+   |     |            NP                        |                  | 
+   |     |    ________|______                   |                  |  
+   |     |   |              NP'                 PP                 | 
+   |     |   |         ______|_______       ____|____              |  
+   |     |   |       ADJP            |     |         NP            | 
+   |     |   |    ____|______        |     |     ____|______       |  
+ NP_NNP VBZ  DT RBS          JJ      NN    IN   NN          NN     . 
+   |     |   |   |           |       |     |    |           |      |  
+WordNet  is the most      popular example  of sense     inventory  . 
+
+(S (NP_NNP WordNet) (S' (VP (VBZ is) (NP (NP (DT the) (NP' (ADJP (RBS most) (JJ popular)) (NN example))) (PP (IN of) (NP (NN sense) (NN inventory))))) (. .)))
+                                                                           S                                                                                
+                                               ____________________________|________________________________________________________                         
+                                              S                                                                                     |                       
+           ___________________________________|_____________________________________                                                |                        
+          NP                                                                        |                                               |                       
+      ____|___________                                                              |                                               |                        
+     |                PP                                                            |                                               |                       
+     |           _____|___________                                                  |                                               |                        
+     |          |                S_VP                                               VP                                              S'                      
+     |          |      ___________|___________                              ________|___                                       _____|_____________________   
+     |          |     |                       NP                           |            PP                                    VP                          | 
+     |          |     |            ___________|_____________               |    ________|_____                     ___________|_____                      |  
+     |          |     |           NP                        |              |   |              NP                  |                VP'                    | 
+     |          |     |       ____|_____                    |              |   |     _________|_____              |      ___________|______               |  
+     NP         |     |      |         NP'                  PP             |   |    |              NP'            |     |                 ADJP            | 
+  ___|____      |     |      |     _____|_____         _____|______        |   |    |          _____|______       |     |            ______|_______       |  
+ DT       NN    IN   VBG     DT   JJ          NN      IN         NP_NNS   VBD  IN   DT       NNP           NN    VBD ADVP_RB        RB             JJ     . 
+ |        |     |     |      |    |           |       |            |       |   |    |         |            |      |     |           |              |      |  
+The     reason for adopting the HECTOR     database during     Senseval-1 was that the     WordNet     inventory was already     publicly      available  . 
+
+(S (S (NP (NP (DT The) (NN reason)) (PP (IN for) (S_VP (VBG adopting) (NP (NP (DT the) (NP' (JJ HECTOR) (NN database))) (PP (IN during) (NP_NNS Senseval-1)))))) (VP (VBD was) (PP (IN that) (NP (DT the) (NP' (NNP WordNet) (NN inventory)))))) (S' (VP (VBD was) (VP' (ADVP_RB already) (ADJP (RB publicly) (JJ available)))) (. .)))
+              S            
+     _________|______       
+    |                S'    
+    |          ______|___   
+  NP_NNP    VP_VBZ       . 
+    |         |          |  
+Evaluation measures      . 
+
+(S (NP_NNP Evaluation) (S' (VP_VBZ measures) (. .)))
