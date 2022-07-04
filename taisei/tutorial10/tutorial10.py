@@ -31,6 +31,8 @@ class CKY:
         with open(input_file, "r") as f_input:
             data = f_input.readlines()
         for line in data:
+            self.best_score = defaultdict(lambda: -float("inf"))
+            self.best_edge = dict()
             words = line.strip().split()
             self.add_front_final_sym(words)
             self.combi_final_sym(words)
@@ -42,8 +44,9 @@ class CKY:
     def add_front_final_sym(self, words):
         """前終端記号を追加"""
         for i in range(len(words)):
-            for lhs, log_prob in self.preterm[words[i]]:
-                self.best_score[f"{lhs} {i} {i+1}"] = log_prob
+            if words[i] in self.preterm:
+                for lhs, log_prob in self.preterm[words[i]]:
+                    self.best_score[f"{lhs} {i} {i+1}"] = log_prob
 
     def combi_final_sym(self, words):
         """非終端記号の組み合わせ"""
