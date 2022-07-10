@@ -35,11 +35,11 @@ class LDA:
     #カウントの追加
     def add_counts(self, word, topic, doc_id, amount):
         self.xcounts[f"{topic}"] += amount 
-        self.xcounts[f"{word}|{topic}"] += amount #このORは何．．．？
+        self.xcounts[f"{word}|{topic}"] += amount #そのトピックの時，単語が出てくる回数をカウント
         self.ycounts[f"{doc_id}"] += amount
         self.ycounts[f"{topic}|{doc_id}"] += amount
     
-    def sample_one(self, probs):
+    def sample_one(self, probs):#トピックの分布に従ってサンプルする
         z = sum(probs) #確率の和を計算
         remaining = random.uniform(0,z) #[0,z)の一様分布の乱数を生成
         for i in range(len(probs)): #probsの各項目を検証
@@ -64,7 +64,7 @@ class LDA:
                         p_x_k = ((self.xcounts[f"{x}|{k}"] + self.alpha) / (self.xcounts[f"{k}"] + self.alpha * N_x))
                         p_k_Y = ((self.ycounts[f"{k}|{i}"] + self.beta) / (self.ycounts[f"{i}"] + self.beta * N_y))
                         probs.append(p_x_k * p_k_Y)
-                    new_y = self.sample_one(probs)
+                    new_y = self.sample_one(probs)#新しいトピックをサンプルしてくる
                     ll += log(probs[new_y])
                     self.add_counts(x, new_y, i, 1)
                     self.ycorpas[i][j] = new_y
@@ -85,7 +85,7 @@ class LDA:
             for i in range(self.num_topics):
                 topic = topics[i]
                 print(f"---topic #{i}----------------------------------------", file=f)
-                print(" ".join(topic), file=f)
+                print(" ".join(topic), file=f)#出力するときにソートする，記号も削除(&から始まるやつとか)
                 #カウントの出力っていらなくない？
 
 if __name__ == "__main__":
